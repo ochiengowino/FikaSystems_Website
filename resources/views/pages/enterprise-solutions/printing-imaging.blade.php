@@ -1,13 +1,13 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container-fluid bg-primary py-5 bg-header">
+<div class="container-fluid bg-primary py-5 bg-header enterprise-header">
     <div class="row py-5">
         <div class="col-12 pt-lg-5 mt-lg-5 text-center">
             <h1 class="display-4 text-white animated zoomIn">Enterprise Solutions</h1>
             <a href="/" class="h5 text-white">Home</a>
             <i class="far fa-circle text-white px-2"></i>
-            <a href="/enterprise-solutions" class="h5 text-white">Printing & Imaging</a>
+            <a href="#" class="h5 text-white">Printing & Imaging</a>
         </div>
     </div>
 </div>
@@ -23,18 +23,15 @@
                 </div>
                 <p class="mb-4">Organizations that work like tomorrow employ cognitive capture to intelligently automate the acquisition, understanding and integration of all types of information across an organization, including unstructured data in business documents and emails. Through intelligent document processing, which combines multichannel document capture and intelligent OCR, users have the power to quickly and accurately process any document.</p>
                 
-              {{-- <h3>Infrastructure</h3>
-              <p>Located at Libra House, Nairobi, Fika is equipped with all the modern facilities in-house. We have all the required latest hardware and software, advanced web conference tools that help us interact with clients all over the globe from our desktop. We have continuous, power backup and the required Infrastructure to run our organization 24*7, across all time zones.</p> --}}
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
                 <div class="position-relative h-100">
-                    <img class="position-absolute w-100 rounded wow zoomIn" data-wow-delay="0.9s" src="img/web-app2.jpg" style="width: 50px">
+                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="img/printing1.jpg" style="object-fit: cover;">
                 </div>
             </div>
         </div>
     </div>
 </div>
-
 
 <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
     <div class="container py-5">
@@ -202,7 +199,7 @@
 
     {{-- style="background: #fbfefb;" --}}
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s" style="background: #f8f9fa;">
-        <div class="container-fluid py-5">
+        <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 800px;">
                 {{-- <h5 class="fw-bold text-primary text-uppercase">Why Choose Us</h5> --}}
                 <h1 class="mb-0">Use AI to Turn Documents and Data Into Savings and Simplicity</h1>
@@ -214,7 +211,7 @@
                         <div class="col-md-4 wow slideInUp" data-wow-delay="0.1s">
                             <div class="blog-item bg-light rounded overflow-hidden">
                                 <div class="blog-img position-relative overflow-hidden">
-                                    <img class="img-fluid" src="img/app-dev1.jpg" alt="" style="width: 100%; height: 300px">
+                                    <img class="img-fluid" src="img/p&i.jpg" alt="" style="width: 100%; height: 200px">
                                     {{-- <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a> --}}
                                 </div>
                                 <div class="p-4">
@@ -230,7 +227,7 @@
                         <div class="col-md-4 wow slideInUp" data-wow-delay="0.6s">
                             <div class="blog-item bg-light rounded overflow-hidden">
                                 <div class="blog-img position-relative overflow-hidden">
-                                    <img class="img-fluid" src="img/sales1.jpg" alt="" style="width: 100%; height: 300px">
+                                    <img class="img-fluid" src="img/p&i2.jpg" alt="" style="width: 100%; height: 200px">
                                     {{-- <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a> --}}
                                 </div>
                                 <div class="p-4">
@@ -246,7 +243,7 @@
                         <div class="col-md-4 wow slideInUp" data-wow-delay="0.1s">
                             <div class="blog-item bg-light rounded overflow-hidden">
                                 <div class="blog-img position-relative overflow-hidden">
-                                    <img class="img-fluid" src="img/webapplication1.jpg" alt="" style="width: 100%; height: 300px">
+                                    <img class="img-fluid" src="img/webapplication1.jpg" alt="" style="width: 100%; height: 200px">
                                     {{-- <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a> --}}
                                 </div>
                                 <div class="p-4">

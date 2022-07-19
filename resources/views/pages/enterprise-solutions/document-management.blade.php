@@ -1,13 +1,13 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container-fluid bg-primary py-5 bg-header">
+<div class="container-fluid bg-primary py-5 bg-header enterprise-header ">
     <div class="row py-5">
         <div class="col-12 pt-lg-5 mt-lg-5 text-center">
-            <h1 class="display-4 text-white animated zoomIn">Enterprise Solution</h1>
+            <h1 class="display-4 text-white animated zoomIn">Enterprise Solutions</h1>
             <a href="/" class="h5 text-white">Home</a>
-            <i class="far fa-circle text-white px-2"></i>
-            <a href="/document-management" class="h5 text-white">Document Management</a>
+                <i class="far fa-circle text-white px-2"></i>
+            <a href="#" class="h5 text-white">Document Management</a>
         </div>
     </div>
 </div>
@@ -23,12 +23,10 @@
                 </div>
                 <p class="mb-4">Organizations often rely on costly manual paper processes that lack document security, are time-consuming and error-prone. Save time, increase productivity and protect your confidential information with our market-leading PDF, OCR and document conversion solutions.</p>
                 
-              {{-- <h3>Infrastructure</h3>
-              <p>Located at Libra House, Nairobi, Fika is equipped with all the modern facilities in-house. We have all the required latest hardware and software, advanced web conference tools that help us interact with clients all over the globe from our desktop. We have continuous, power backup and the required Infrastructure to run our organization 24*7, across all time zones.</p> --}}
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
                 <div class="position-relative h-100">
-                    <img class="position-absolute w-100 rounded wow zoomIn" data-wow-delay="0.9s" src="img/web-app2.jpg" style="width: 50px">
+                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="img/dms7.jpg" style="object-fit: cover;">
                 </div>
             </div>
         </div>
@@ -52,7 +50,7 @@
                     <h4 class="mb-3">Kofax Power PDF</h4>
                     <p class="m-0">Kofax Power PDF (formerly Nuance) solutions provide everything you need to create, covert, edit, share and e-sign PDF files.</p>
                     <a class="btn btn-lg btn-primary rounded" href="/power-pdf-standard">
-                         <i class="bi bi-arrow-right"></i>
+                        <i class="bi bi-arrow-right"></i>
                     </a>
                 </div>
             </div>
@@ -165,7 +163,7 @@
                     <div class="col-md-6 wow slideInUp" data-wow-delay="0.1s">
                         <div class="blog-item bg-light rounded overflow-hidden">
                             <div class="blog-img position-relative overflow-hidden">
-                                <img class="img-fluid" src="img/app-dev1.jpg" alt="" style="width: 100%; height: 300px">
+                                <img class="img-fluid" src="img/dms5.jpg" alt="" style="width: 100%; height: 300px">
                                 {{-- <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a> --}}
                             </div>
                             <div class="p-4">
@@ -182,7 +180,7 @@
                     <div class="col-md-6 wow slideInUp" data-wow-delay="0.6s">
                         <div class="blog-item bg-light rounded overflow-hidden">
                             <div class="blog-img position-relative overflow-hidden">
-                                <img class="img-fluid" src="img/sales1.jpg" alt="" style="width: 100%; height: 300px">
+                                <img class="img-fluid" src="img/dms4.jpg" alt="" style="width: 100%; height: 300px">
                                 {{-- <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a> --}}
                             </div>
                             <div class="p-4">
@@ -196,13 +194,12 @@
                             </div>
                         </div>
                     </div>
-                    
-                    
-                    
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<br>
 
 @endsection

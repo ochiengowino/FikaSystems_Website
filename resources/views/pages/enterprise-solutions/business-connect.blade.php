@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container-fluid bg-primary py-5 bg-header">
+<div class="container-fluid bg-primary py-5 bg-header enterprise-header">
     <div class="row py-5">
         <div class="col-12 pt-lg-5 mt-lg-5 text-center">
             <h1 class="display-4 text-white animated zoomIn">Enterprise Solutions</h1>
@@ -46,7 +46,7 @@
 
 
 <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s" style="background: #f2f2f2;">
-    <div class="container-fluid py-5">
+    <div class="container py-5">
         <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 800px;">
             {{-- <h5 class="fw-bold text-primary text-uppercase">Why Choose Us</h5> --}}
             <h2 class="mb-0">Why Customers Choose Business Connect</h2>
@@ -124,62 +124,42 @@
         <div class="row g-5">
             <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                 <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                    <div class="service-icon">
-                        <i class="fa fa-shield-alt text-white"></i>
-                    </div>
+                    
                     <h4 class="mb-3">Mobile Printing</h4>
                     <p class="m-0">Safely initiate print jobs from your smart phone or tablet to print securely wherever, whatever, whenever.</p>
-                    <a class="btn btn-lg btn-primary rounded" href="/control-suite">
-                         <i class="bi bi-arrow-right"></i>
-                    </a>
+                    
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
                 <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                    <div class="service-icon">
-                        <i class="fa fa-chart-pie text-white"></i>
-                    </div>
+                  
                     <h4 class="mb-3">Geo-Tagging</h4>
                     <p class="m-0">Use map coordinates to validate where the work was performed or audit mobile workforces by reviewing location history.</p>
-                    <a class="btn btn-lg btn-primary rounded" href="/printix">
-                        <i class="bi bi-arrow-right"></i>
-                    </a>
+                    
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
                 <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                    <div class="service-icon">
-                        <i class="fa fa-code text-white"></i>
-                    </div>
+                 
                     <h4 class="mb-3">Barcode Scanning With Lookup</h4>
                     <p class="m-0">Read a barcode with your mobile device and populate eForm fields instantaneously with accurate data pulled right from your company’s database.</p>
-                    <a class="btn btn-lg btn-primary rounded" href="/auto-store">
-                        <i class="bi bi-arrow-right"></i>
-                    </a>
+                    
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                 <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                    <div class="service-icon">
-                        <i class="fab fa-android text-white"></i>
-                    </div>
+                  
                     <h4 class="mb-3">File Security</h4>
                     <p class="m-0">Tap into the company network from wherever you are, for secure access to your files and shared network folders.</p>
-                    <a class="btn btn-lg btn-primary rounded" href="">
-                        <i class="bi bi-arrow-right"></i>
-                    </a>
+                    
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                 <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                    <div class="service-icon">
-                        <i class="fab fa-android text-white"></i>
-                    </div>
+                
                     <h4 class="mb-3">SharePoint Integration</h4>
                     <p class="m-0">Browse, view, attach and print Microsoft SharePoint® documents from your mobile device.</p>
-                    <a class="btn btn-lg btn-primary rounded" href="">
-                        <i class="bi bi-arrow-right"></i>
-                    </a>
+                   
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">

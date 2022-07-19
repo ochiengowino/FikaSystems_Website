@@ -88,7 +88,7 @@
                     </div>
 
                     <div class="nav-item dropdown">
-                        <a href="/services" class="nav-link dropdown-toggle {{ (request()->is('services')) ? 'active' : '' }}" data-bs-toggle="dropdown">Services</a>
+                        <a href="/services" class="nav-link dropdown-toggle {{ (request()->is('services')) ? 'active' : '' }}" data-bs-toggle="dropdown">Our Services</a>
                         <div class="dropdown-menu m-0">
                             <a href="/services" class="dropdown-item">Overview</a>
                             <a href="#" class="dropdown-item">General IT Consulting</a>
