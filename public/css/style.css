@@ -535,3 +535,13 @@ h6,
     background: linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)), url(../img/enterprise3.jpg) center center no-repeat !important;
     background-size: cover;
 }
+
+.contact-header {
+    background: linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)), url(../img/contact1.jpg) center center no-repeat !important;
+    background-size: cover;
+}
+
+.industries-header {
+    background: linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)), url(../img/about3.jpg) center center no-repeat !important;
+    background-size: cover;
+}

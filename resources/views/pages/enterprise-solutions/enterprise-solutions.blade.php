@@ -14,7 +14,7 @@
 
 
 
-{{-- style="background: #f5f5f7; " --}}
+
 <!-- About Start -->
 <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s"  style="background: #f5f5f7; ">
     <div class="container py-5">
@@ -44,20 +44,13 @@
                         {{-- <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Point of Sale Solutions</h5> --}}
                         <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Loyalty Solutions</h5> 
                         <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Enterprise Document Management Systems</h5>                                          
-                    </div>
-                    
+                    </div>                  
                 </div>
             </div>
-           
-        
         </div>
-
-        
     </div>
 </div>
 <!-- About End -->
-
-
 
 
 @endsection

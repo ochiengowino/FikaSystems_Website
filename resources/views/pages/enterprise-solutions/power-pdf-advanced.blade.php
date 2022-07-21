@@ -22,72 +22,48 @@
         <div class="row g-5 mb-5">
             <div class="col-lg-6">
                 <div class="row g-5">
-                    <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
-                        
+                    <div class="col-12 wow zoomIn" data-wow-delay="0.2s">                       
                         <h2>An Intuitive, Secure PDF Software Solution</h2>
                         <p class="mb-3">Streamline document workflows and increase productivity with Kofax Power PDF™ Advanced. Built for business users, Power PDF Advanced includes robust functionality like search, redaction and integration with platforms such as Box, Microsoft OneDrive and Evernote. And with a Microsoft Office-style interface, it's easy to learn and use.</p>
-
-                    </div>
-                 
-                </div>
-                
+                    </div>                 
+                </div>               
             </div>
             <div class="col-lg-6  wow zoomIn" data-wow-delay="0.9s" style="min-height: 200px;">
                 <div class="position-relative h-100">
-                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="img/workplace.jpg" style="object-fit: cover;">
+                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="img/dms9.jpg" style="object-fit: cover;">
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-3 mb-2">
-                <div class="blog-item bg-light rounded overflow-hidden">
-                    
-                    <div class="p-4">
-                        <div class="d-flex mb-3">
-                       
-                        </div>
-                        {{-- <h4 class="mb-3">Reduce administrative costs</h4> --}}
-                        <p>Protect your business with redaction, document-access restrictions and centrally-managed security features.</p>
-                      
+                <div class="blog-item bg-light rounded overflow-hidden">                   
+                    <div class="p-4">                        
+                       {{-- <h4 class="mb-3">Reduce administrative costs</h4> --}}
+                        <p>Protect your business with redaction, document-access restrictions and centrally-managed security features.</p>                      
                     </div>
                 </div>
             </div>
             <div class="col-3 mb-2">
-                <div class="blog-item bg-light rounded overflow-hidden">
-                    
-                    <div class="p-4">
-                        <div class="d-flex mb-3">
-                       
-                        </div>
+                <div class="blog-item bg-light rounded overflow-hidden">                   
+                    <div class="p-4">                      
                         {{-- <h4 class="mb-3">Speed processes</h4> --}}
-                        <p>Go paperless and seamlessly manage e-signatures in PDF files with Kofax SignDoc integration.</p>
-                      
+                        <p>Go paperless and seamlessly manage e-signatures in PDF files with Kofax SignDoc integration.</p>                     
                     </div>
                 </div>
             </div>
             <div class="col-3 mb-2">
-                <div class="blog-item bg-light rounded overflow-hidden">
-                    
-                    <div class="p-4">
-                        <div class="d-flex mb-3">
-                       
-                        </div>
+                <div class="blog-item bg-light rounded overflow-hidden">                   
+                    <div class="p-4">                     
                         {{-- <h4 class="mb-3">Ensure compliance</h4> --}}
-                        <p>Create, edit, comment, markup and collaborate on PDF files in real-time with other users in your business or worldwide in a secure environment.</p>
-                      
+                        <p>Create, edit, comment, markup and collaborate on PDF files in real-time with other users in your business or worldwide in a secure environment.</p>                     
                     </div>
                 </div>
             </div>
             <div class="col-3 mb-2">
-                <div class="blog-item bg-light rounded overflow-hidden">
-                    
+                <div class="blog-item bg-light rounded overflow-hidden">                  
                     <div class="p-4">
-                        <div class="d-flex mb-3">
-                       
-                        </div>
                         {{-- <h4 class="mb-3">Ensure compliance</h4> --}}
                         <p>Power PDF supports both macOS 12.0 Monterey and Windows 11.</p>
-                      
                     </div>
                 </div>
             </div>

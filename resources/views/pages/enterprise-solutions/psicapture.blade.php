@@ -34,7 +34,7 @@
             </div>
             <div class="col-lg-6  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
                 <div class="position-relative h-100">
-                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="img/workplace.jpg" style="object-fit: cover;">
+                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="img/printing12.jpg" style="object-fit: cover;">
                 </div>
             </div>
         </div>
@@ -79,7 +79,7 @@
             {{-- <h4 class="text-center">Why Customers Choose Printix</h4> --}}
             <div class="col-lg-4" style="min-height: 400px;">
                 <div class="position-relative h-100">
-                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="img/race-action.jpg" style="object-fit: cover;">
+                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="img/printing70.jpg" style="object-fit: cover;">
                 </div>
             </div>
             <div class="col-lg-4">
@@ -158,6 +158,7 @@
         </div>
     </div>
 </div>
+
 
 <div class="container-fluid wow fadeInUp mb-5" data-wow-delay="0.1s" >
     <div class="container py-5">

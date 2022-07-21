@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+
 <div class="container-fluid bg-primary py-5 bg-header enterprise-header">
     <div class="row py-5">
         <div class="col-12 pt-lg-5 mt-lg-5 text-center">
@@ -32,11 +33,10 @@
                         <p>Deliver information back into your business processes securely, whatever the format: a picture taken on your mobile device, an email attachment, a file downloaded from a cloud-hosted service, or from any application on your mobile device.</p>
                     </div>
                 </div>
-                
             </div>
             <div class="col-lg-6  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
                 <div class="position-relative h-100">
-                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="img/workplace.jpg" style="object-fit: cover;">
+                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="img/printing82.jpg" style="object-fit: cover;">
                 </div>
             </div>
         </div>
@@ -44,27 +44,21 @@
 </div>
 
 
-
 <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s" style="background: #f2f2f2;">
     <div class="container py-5">
         <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 800px;">
-            {{-- <h5 class="fw-bold text-primary text-uppercase">Why Choose Us</h5> --}}
             <h2 class="mb-0">Why Customers Choose Business Connect</h2>
         </div>
         <div class="row g-5">
-            <!-- Blog list Start -->
             <div class="col-lg-12">
                 <div class="row g-5">
                     <div class="col-md-4 wow slideInUp" data-wow-delay="0.1s">
                         <div class="blog-item bg-light rounded overflow-hidden">
                             <div class="blog-img position-relative overflow-hidden">
-                                <img class="img-fluid" src="img/app-dev1.jpg" alt="" style="width: 100%; height: 300px">
-                                {{-- <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a> --}}
+                                <img class="img-fluid" src="img/dms9.jpg" alt="" style="width: 100%; height: 200px">
                             </div>
                             <div class="p-4">
-                                <div class="d-flex mb-3">
-                               
-                                </div>
+                            
                                 <h4 class="mb-3">Eliminates paper-based forms</h4>
                                 <p>By extending back-office business applications directly to a mobile device, there's no need to find, print, carry and return paper forms.</p>
                               
@@ -74,13 +68,10 @@
                     <div class="col-md-4 wow slideInUp" data-wow-delay="0.6s">
                         <div class="blog-item bg-light rounded overflow-hidden">
                             <div class="blog-img position-relative overflow-hidden">
-                                <img class="img-fluid" src="img/sales1.jpg" alt="" style="width: 100%; height: 300px">
-                                {{-- <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a> --}}
+                                <img class="img-fluid" src="img/office13.jpg" alt="" style="width: 100%; height: 200px">
                             </div>
                             <div class="p-4">
-                                <div class="d-flex mb-3">
-                               
-                                </div>
+                            
                                 <h4 class="mb-3">Increases productivity with eSignature</h4>
                                 <p>Keep business on track with signatures captured electronically and sent from smart devices. This allows mobile employees to quickly obtain approval or consent and validate information.</p>
                                 
@@ -90,22 +81,16 @@
                     <div class="col-md-4 wow slideInUp" data-wow-delay="0.1s">
                         <div class="blog-item bg-light rounded overflow-hidden">
                             <div class="blog-img position-relative overflow-hidden">
-                                <img class="img-fluid" src="img/webapplication1.jpg" alt="" style="width: 100%; height: 300px">
-                                {{-- <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a> --}}
+                                <img class="img-fluid" src="img/webapplication1.jpg" alt="" style="width: 100%; height: 200px">
                             </div>
                             <div class="p-4">
-                                <div class="d-flex mb-3">
-                                    
-                                </div>
+
                                 <h4 class="mb-3">Saves time with bi-directional connectivity</h4>
                                 <p>Minimize the time spent searching for and entering data to a mobile device using simple lookup fields. Return values stored in back-end databases and use it for indexing data in real time.</p>
                                
                             </div>
                         </div>
                     </div>
-        
-                    
-                    
                 </div>
             </div>
         </div>
@@ -117,7 +102,6 @@
 <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
     <div class="container py-5">
         <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-            {{-- <h5 class="fw-bold text-primary text-uppercase">Printing & Imaging</h5> --}}
             <h2 class="mb-0">How Business Connect Can Help</h2>
             {{-- <p>Modernize slow, manual, error-prone or expensive processes related to processing documents and electronic data.</p> --}}
         </div>
@@ -165,7 +149,6 @@
             <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
                 <div class="position-relative bg-primary rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-5">
                     <h3 class="text-white mb-3">Call Us for Inquiry</h3>
-                    {{-- <p class="text-white mb-3">Clita ipsum magna kasd rebum at ipsum amet dolor justo dolor est magna stet eirmod</p> --}}
                     <h2 class="text-white mb-0">+254 20 2495918</h2>
                 </div>
             </div>
@@ -174,6 +157,4 @@
 </div>
 
     
-
-
 @endsection

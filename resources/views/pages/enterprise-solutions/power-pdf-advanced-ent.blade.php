@@ -19,7 +19,7 @@
         <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
             <h5 class="fw-bold text-primary text-uppercase">Kofax
                 Power PDF
-                Advanced</h5>
+                Advanced for Enterprise</h5>
             <h1 class="mb-0">The Leading PDF Software
                 Built for Business Users</h1>
         </div>
@@ -50,7 +50,7 @@
             </div>
             <div class="col-lg-6  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
                 <div class="position-relative h-100">
-                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="img/workplace.jpg" style="object-fit: cover;">
+                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="img/dms14.jpg" style="object-fit: cover;">
                 </div>
             </div>
   
@@ -65,7 +65,7 @@
         <div class="row g-5">
             <div class="col-lg-6  wow zoomIn mb-3" data-wow-delay="0.9s" style="min-height: 350px;">
                 <div class="position-relative h-100">
-                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="img/workplace.jpg" style="object-fit: cover;">
+                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="img/dms16.jpg" style="object-fit: cover;">
                 </div>
             </div>
             <div class="col-lg-6">

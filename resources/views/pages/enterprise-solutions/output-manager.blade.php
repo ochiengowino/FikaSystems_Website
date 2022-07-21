@@ -25,72 +25,57 @@
             <div class="col-lg-6">
                 <div class="row g-5">
                     <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
-                        
                         <h2>Intelligent Print Management Simplifies Workflows</h2>
                         <p class="mb-3">With Kofax Output Manager™ process orchestration capabilities, businesses keep confidential information safe, increasing print efficiency and mitigating compliance risks.</p>
-
-                    </div>
-                 
+                    </div>               
                 </div>
-                
+                <div class="row">
+                    <div class="col-lg-6 mb-3">
+                        <div class="blog-item bg-light rounded overflow-hidden">                   
+                            <div class="p-4">
+                                <p>Whether you’re converting a handful of paper documents or millions of pages, OmniPage solutions are perfect for a single user, small business or enterprise.</p>                      
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-3">
+                        <div class="blog-item bg-light rounded overflow-hidden">                   
+                            <div class="p-4">
+                                <p>Offers superior conversion accuracy, intelligent character recognition and zonal recognition, so you can quickly create editable documents.</p>                     
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-3">
+                        <div class="blog-item bg-light rounded overflow-hidden">                
+                            <div class="p-4">
+                                <p>Fast document conversion times increase productivity and enable a greater focus on more strategic work.</p>         
+                            </div>
+                        </div>
+                    </div>
+                </div>              
             </div>
             <div class="col-lg-6  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
                 <div class="position-relative h-100">
-                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="img/workplace.jpg" style="object-fit: cover;">
+                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="img/printing3.jpg" style="object-fit: cover;">
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-4 mb-2">
-                <div class="blog-item bg-light rounded overflow-hidden">
-                    
-                    <div class="p-4">
-                   
-                
-                        <p>Whether you’re converting a handful of paper documents or millions of pages, OmniPage solutions are perfect for a single user, small business or enterprise.</p>
-                      
-                    </div>
-                </div>
-            </div>
-            <div class="col-4 mb-2">
-                <div class="blog-item bg-light rounded overflow-hidden">
-                    
-                    <div class="p-4">
-                       
-                   
-                        <p>Offers superior conversion accuracy, intelligent character recognition and zonal recognition, so you can quickly create editable documents.</p>
-                      
-                    </div>
-                </div>
-            </div>
-            <div class="col-4 mb-2">
-                <div class="blog-item bg-light rounded overflow-hidden">
-                    
-                    <div class="p-4">
-                        
-                       
-                        <p>Fast document conversion times increase productivity and enable a greater focus on more strategic work.</p>
-                      
-                    </div>
-                </div>
-            </div>
-        </div>
+        
     </div>
 </div>
 <!-- Features Start -->
 
-<div class="container-fluid py-0 wow fadeInUp mb-5" data-wow-delay="0.1s" >
+<div class="container-fluid py-5 wow fadeInUp mb-5" data-wow-delay="0.1s" style="background: #f3f4f5; ">
     <div class="container py-0">
-        <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+        <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 800px;">
           
-            <h1 class="mb-0">Why Customers Choose Output Manager</h1>
+            <h2 class="mb-0">Why Customers Choose Output Manager</h2>
             {{-- <p>Market-Leading PDF, OCR and document conversion solutions.</p> --}}
         </div>
         <div class="row g-5">
             {{-- <h4 class="text-center">Why Customers Choose Printix</h4> --}}
             <div class="col-lg-4" style="min-height: 200px;">
                 <div class="position-relative h-100">
-                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="img/race-action.jpg" style="object-fit: cover;">
+                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="img/office54.jpg" style="object-fit: cover;">
                 </div>
             </div>
             <div class="col-lg-4">
@@ -135,7 +120,7 @@
     <div class="container py-5">
         <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
           
-            <h1 class="mb-0">How Output Manager Can Help</h1>
+            <h2 class="mb-0">How Output Manager Can Help</h2>
            
         </div>
         <div class="row g-5">

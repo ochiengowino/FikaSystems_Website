@@ -38,7 +38,7 @@
             </div>
             <div class="col-lg-6  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
                 <div class="position-relative h-100">
-                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="img/workplace.jpg" style="object-fit: cover;">
+                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="img/dms21.jpg" style="object-fit: cover;">
                 </div>
             </div>
   
@@ -53,7 +53,7 @@
         <div class="row g-5">
             <div class="col-lg-6  wow zoomIn mb-3" data-wow-delay="0.9s" style="min-height: 350px;">
                 <div class="position-relative h-100">
-                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="img/workplace.jpg" style="object-fit: cover;">
+                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="img/dms3.jpg" style="object-fit: cover;">
                 </div>
             </div>
             <div class="col-lg-6">

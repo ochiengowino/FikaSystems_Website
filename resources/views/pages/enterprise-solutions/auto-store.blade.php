@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+
 <div class="container-fluid bg-primary py-5 bg-header enterprise-header">
     <div class="row py-5">
         <div class="col-12 pt-lg-5 mt-lg-5 text-center">
@@ -12,7 +13,7 @@
     </div>
 </div>
 
-{{-- style="margin-bottom: 90px;" --}}
+
 <!-- Features Start -->
 <div class="container-fluid wow fadeInUp mb-5" data-wow-delay="0.1s" style="background: #f5f5f7; ">
     <div class="container py-5">
@@ -26,10 +27,10 @@
         <div class="row g-5">
             <div class="col-lg-6">
                 <div class="row g-5">
-                    <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
-                        
+                    <div class="col-12 wow zoomIn" data-wow-delay="0.2s">                       
                         <h4>SECURE, AUTOMATED, DISTRIBUTED
-                            CAPTURE TO WORK LIKE TOMORROW</h4>
+                            CAPTURE TO WORK LIKE TOMORROW
+                        </h4>
                         <p class="mb-3">Kofax AutoStore is an integrated solution that securely enables
                             automated and compliant document capture workflows from
                             the widest range of hardware and software platforms. It is built
@@ -44,38 +45,33 @@
                             journey with very simple and functional solutions that deliver
                             reliable results, and then scale to address more complex tasks
                             and process workflows as the organization grows into a more
-                            efficient digital workplace.</p>
-                        
-                        
-                    </div>
-                 
+                            efficient digital workplace.
+                        </p>
+                    </div>                 
                 </div>
             </div>
             <div class="col-lg-6  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
                 <div class="position-relative h-100">
-                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="img/workplace.jpg" style="object-fit: cover;">
+                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="img/printing47.jpg" style="object-fit: cover;">
                 </div>
-            </div>
-  
+            </div> 
         </div>
     </div>
 </div>
 <!-- Features Start -->
 
+
 <!-- About Start -->
 <div class="container-fluid py-0 wow fadeInUp mb-5" data-wow-delay="0.1s" style="background: #f8f9fa">
     <div class="container py-0">
-        <div class="row g-5">
-          
+        <div class="row g-5">         
             <div class="col-lg-4">
                 <div class="row g-5">
-                    <div class=" wow zoomIn" data-wow-delay="0.2s">
-                        
+                    <div class=" wow zoomIn" data-wow-delay="0.2s">                       
                         <h4>HOW DOES KOFAX AUTOSTORE WORK?</h4>
-                        
                             <p class="mb-2">Kofax AutoStore utilizes your existing infrastructure and captures
-                                information from a wide range of device platforms, including:</p>
-
+                                information from a wide range of device platforms, including:
+                            </p>
                             <p class="mb-1"><i class="fa fa-check text-primary me-3"></i>Multifunction peripherals (MFPs)</p> 
                             <p class="mb-1"><i class="fa fa-check text-primary me-3"></i>Smartphones</p>
                             <p class="mb-1"><i class="fa fa-check text-primary me-3"></i>Emails</p>
@@ -86,16 +82,12 @@
                             <p class="mb-1"><i class="fa fa-check text-primary me-3"></i>PC desktops</p>
                             <p class="mb-1"><i class="fa fa-check text-primary me-3"></i>XML data streams and other sources</p>
                             <p class="mb-1"><i class="fa fa-check text-primary me-3"></i>Online web forms</p>
-                    </div>
-
-                   
-                </div>
-                 
-            </div>
-        
+                    </div>  
+                </div>                 
+            </div>      
             <div class="col-lg-4  wow zoomIn mb-3" data-wow-delay="0.9s" style="min-height: 350px;">
                 <div class="position-relative h-100">
-                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="img/workplace.jpg" style="object-fit: cover;">
+                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.6s" src="img/office22.jpg" style="object-fit: cover;">
                 </div>
             </div>
             <div class="col-lg-4">
@@ -106,20 +98,17 @@
                 <p>Data and corresponding documents can even be routed to multiple destinations simultaneously and selectively. These automated tasks are performed effortlessly with the push of a button from any supported device platform, including an MFP front panel. Automated workflows start immediately, ensuring your information goes where you want it to go quickly and accurately every time.</p>
             </div>
         </div>
-
-        
     </div>
 </div>
 <!-- About End -->
 
+
 <div class="container-fluid py-0 wow fadeInUp" data-wow-delay="0.1s" >
     <div class="container py-0">
-        <div class="row g-5">
-            
+        <div class="row g-5">            
             <div class="col-lg-6">
                 <div class="row g-5">
-                    <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
-                        
+                    <div class="col-12 wow zoomIn" data-wow-delay="0.2s">                      
                         <h4>WHAT SETS KOFAX AUTOSTORE APART</h4>
                         <h5 class="mb-1"><i class="fa fa-check text-primary me-3"></i>Broad Multi-vendor MFP Support</h5> 
                         <p class="mb-3">Kofax AutoStore works with all major office multifunction printer (MFP) manufacturers, making it easy to add or change devices without the need to install and configure new software, saving time and reducing costs for administrators. Workers benefit with a consistent user experience across devices, regardless of brand.</p>
@@ -138,9 +127,7 @@
 
                         <h5 class="mb-1"><i class="fa fa-check text-primary me-3"></i>Native LDAP Integration</h5> 
                         <p class="mb-3">From any supported MFP, Kofax AutoStore users can browse your company contact list or search by domain name to return a selectable list of addresses. Just select and confirm to scan securely to one or multiple addresses.</p>
-
-                    </div>
-                 
+                    </div>                
                 </div>
             </div>
             <div class="col-lg-6  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
@@ -148,15 +135,12 @@
                 <p class="mb-2">Kofax AutoStore is an enterprise document capture and workflow automation solution that transforms static documents into actional digital information to deliver several key benefits, including:</p>
                 <p class="mb-1"><i class="fa fa-check text-primary me-3"></i>Securing your business information to prevent unauthorized use, and maintain the organization’s reputation and customer trust.</p>
                 <p class="mb-1"><i class="fa fa-check text-primary me-3"></i>Increasing the productivity and efficiency of your workforce by enhancing and enriching information quality and detail, while simultaneously reducing errors and redundant manual tasks associated with managing and processing documents and information.</p>
-                <p class="mb-1"><i class="fa fa-check text-primary me-3"></i>Ensuring that your operational processes remain compliant by automatically applying consistent business rules and tracking the movement and use of documents and information.</p>
-                
-            </div>
-  
+                <p class="mb-1"><i class="fa fa-check text-primary me-3"></i>Ensuring that your operational processes remain compliant by automatically applying consistent business rules and tracking the movement and use of documents and information.</p>               
+            </div> 
         </div>
-
-        
     </div>
 </div>
+
 <br>
 
 
