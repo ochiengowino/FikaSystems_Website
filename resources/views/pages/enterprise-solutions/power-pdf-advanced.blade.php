@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+
 <div class="container-fluid bg-primary py-5 bg-header enterprise-header">
     <div class="row py-5">
         <div class="col-12 pt-lg-5 mt-lg-5 text-center">
@@ -11,6 +12,7 @@
         </div>
     </div>
 </div>
+
 
 <div class="container-fluid wow fadeInUp mb-5" data-wow-delay="0.1s" >
     <div class="container py-5">
@@ -38,7 +40,6 @@
             <div class="col-3 mb-2">
                 <div class="blog-item bg-light rounded overflow-hidden">                   
                     <div class="p-4">                        
-                       {{-- <h4 class="mb-3">Reduce administrative costs</h4> --}}
                         <p>Protect your business with redaction, document-access restrictions and centrally-managed security features.</p>                      
                     </div>
                 </div>
@@ -46,7 +47,6 @@
             <div class="col-3 mb-2">
                 <div class="blog-item bg-light rounded overflow-hidden">                   
                     <div class="p-4">                      
-                        {{-- <h4 class="mb-3">Speed processes</h4> --}}
                         <p>Go paperless and seamlessly manage e-signatures in PDF files with Kofax SignDoc integration.</p>                     
                     </div>
                 </div>
@@ -54,7 +54,6 @@
             <div class="col-3 mb-2">
                 <div class="blog-item bg-light rounded overflow-hidden">                   
                     <div class="p-4">                     
-                        {{-- <h4 class="mb-3">Ensure compliance</h4> --}}
                         <p>Create, edit, comment, markup and collaborate on PDF files in real-time with other users in your business or worldwide in a secure environment.</p>                     
                     </div>
                 </div>
@@ -62,7 +61,6 @@
             <div class="col-3 mb-2">
                 <div class="blog-item bg-light rounded overflow-hidden">                  
                     <div class="p-4">
-                        {{-- <h4 class="mb-3">Ensure compliance</h4> --}}
                         <p>Power PDF supports both macOS 12.0 Monterey and Windows 11.</p>
                     </div>
                 </div>
