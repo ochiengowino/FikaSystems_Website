@@ -31,6 +31,8 @@ Route::get('/industries', 'WebsiteController@industries');
 
 Route::get('/contact-us', 'WebsiteController@contact');
 
+Route::post('/contact-us', 'ContactFormsController@saveContact');
+
 Route::get('/software-applications', 'WebsiteController@softwareApps');
 
 Route::get('/index2', 'WebsiteController@index2');
@@ -81,3 +83,4 @@ Route::get('/psicapture', 'WebsiteController@psicapture');
 
 Route::get('/elo', 'WebsiteController@elo');
 
+Route::get('/download-file', 'WebsiteController@downloadFile');

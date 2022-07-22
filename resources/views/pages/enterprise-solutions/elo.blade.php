@@ -118,7 +118,6 @@
 </div>
 
 
-
 <div class="container-fluid wow fadeInUp mb-5" data-wow-delay="0.1s" style="background: #f5f5f7; ">
     <div class="container py-5">
         <div class="section-title text-center position-relative pb-3 mb-3 mx-auto" style="max-width: 800px;">
@@ -185,8 +184,7 @@
 
 
 <div class="container-fluid wow fadeInUp mb-5" data-wow-delay="0.1s" >
-    <div class="container py-5">
-        
+    <div class="container py-5">       
         <div class="row g-5 mb-5">
             <div class="col-lg-6">
                 <div class="section-title text-center position-relative pb-3 mb-3 mx-auto" style="max-width: 800px;">
@@ -306,11 +304,12 @@
                 <h2 class="mb-0 text-light">All Information at a Glance can be Found Here</h2>
             </div>
             <div class="col-lg-4">
-                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Product Brochure</a>
+                <a href="/download-file" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Product Brochure</a>
             </div>
         </div>
     </div>
 </div>
+
 
 <div class="container-fluid wow fadeInUp mb-5" data-wow-delay="0.1s" >
     <div class="container py-5">
@@ -477,7 +476,7 @@
             <div class="col-lg-6">
                 <div class="section-title text-center position-relative pb-3 mb-3 mx-auto" style="max-width: 800px;">
                     <h5 class="fw-bold text-primary">ELO Integration Service</h5>
-                    <h2 class="mb-0">ECM functionalities in ERP and ECM</h2>
+                    <h2 class="mb-0">ECM Functionalities in ERP and ECM</h2>
                 </div>
                 <div class="row g-5">
                     <div class="col-12 wow zoomIn" data-wow-delay="0.2s">                       

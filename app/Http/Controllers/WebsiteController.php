@@ -151,10 +151,6 @@ class WebsiteController extends Controller
         return view('pages.enterprise-solutions.psicapture');
     }
 
-
- 
-
-
     public function services()
     {
         return view('pages.services');
@@ -179,6 +175,7 @@ class WebsiteController extends Controller
     {
         return view('pages.enterprise-solutions.elo');
     }
+    
 
     /**
      * Store a newly created resource in storage.
@@ -189,6 +186,15 @@ class WebsiteController extends Controller
     public function store(Request $request)
     {
         //
+    }
+
+
+    public function downloadFile()
+    {
+        $filePath = public_path("fika_brochures/ELO ECM Suite Brochure.pdf");
+        $headers = ['Content-Type: application/pdf'];
+        $fileName = 'ELO ECM Suite.pdf';
+        return response()->download($filePath, $fileName, $headers);
     }
 
     /**
