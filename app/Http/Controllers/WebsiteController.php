@@ -175,7 +175,10 @@ class WebsiteController extends Controller
         return view('pages.industries');
     }
 
-    
+    public function elo()
+    {
+        return view('pages.enterprise-solutions.elo');
+    }
 
     /**
      * Store a newly created resource in storage.

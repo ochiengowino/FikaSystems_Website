@@ -106,8 +106,8 @@
                             <a href="/enterprise-solutions" class="dropdown-item">Overview</a>
                             <a href="/document-management" class="dropdown-item">Document Management</a>
                             <a href="/printing-imaging" class="dropdown-item">Printing & Imaging</a>
-                            <a href="#" class="dropdown-item">Customer Relation Management</a>
-                            <a href="#" class="dropdown-item">Content Management</a>
+                            <a href="/elo" class="dropdown-item">Content Management</a>
+                            <a href="#" class="dropdown-item">Customer Relation Management</a>                      
                             <a href="#" class="dropdown-item">Enterprise Security</a>
                             <a href="#" class="dropdown-item">Video Intelligence</a>
                             <a href="#" class="dropdown-item">Emergency Response Solution</a>

@@ -79,5 +79,5 @@ Route::get('/safecom', 'WebsiteController@safecom');
 
 Route::get('/psicapture', 'WebsiteController@psicapture');
 
-
+Route::get('/elo', 'WebsiteController@elo');
 
