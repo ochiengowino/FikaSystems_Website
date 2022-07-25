@@ -104,9 +104,9 @@
                         <a href="/enterprise-solutions" class="nav-link dropdown-toggle {{ (request()->is('enterprise-solutions')) ? 'active' : '' }}" data-bs-toggle="dropdown">Enterprise Solutions</a>
                         <div class="dropdown-menu m-0">
                             <a href="/enterprise-solutions" class="dropdown-item">Overview</a>
-                            <a href="/document-management" class="dropdown-item">Document Management</a>
+                            <a href="/document-management" class="dropdown-item">Productivity Solutions</a>
                             <a href="/printing-imaging" class="dropdown-item">Printing & Imaging</a>
-                            <a href="/elo" class="dropdown-item">Content Management</a>
+                            <a href="/elo" class="dropdown-item">Document Management Solutions</a>
                             <a href="#" class="dropdown-item">Customer Relation Management</a>                      
                             <a href="#" class="dropdown-item">Enterprise Security</a>
                             <a href="#" class="dropdown-item">Video Intelligence</a>

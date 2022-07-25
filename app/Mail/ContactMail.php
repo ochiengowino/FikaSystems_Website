@@ -30,6 +30,9 @@ class ContactMail extends Mailable
      */
     public function build()
     {
-        return $this->from('bochieng@kenlinksolutions.com')->subject('New Customer Equiry')->view('pages.contact-email')->with('data', $this->data);
+        return $this->from($this->data['email'])
+        ->subject('New Contact Request')
+        ->view('pages.contact-email')
+        ->with('data', $this->data);
     }
 }
