@@ -17,7 +17,7 @@
 <div class="container-fluid wow fadeInUp mb-5" data-wow-delay="0.1s" >
     <div class="container py-5">
         <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 800px;">
-            <h5 class="fw-bold text-primary text-uppercase">Enterprise Content Management</h5>
+            <h5 class="fw-bold text-primary text-uppercase">Enterprise Content Management (ECM)</h5>
             <h1 class="mb-0">Software for Digitalizing
                 Business Processes
             </h1>
@@ -59,7 +59,7 @@
 </div>
 
 
-<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s" style="background: #f8f9fa;">
     <div class="container py-5">
         <div class="section-title text-center position-relative pb-3 mb-3 mx-auto" style="max-width: 800px;">
             <h2 class="mb-0">The Benefits of ELO ECM Suite</h2>
@@ -118,10 +118,10 @@
 </div>
 
 
-<div class="container-fluid wow fadeInUp mb-5" data-wow-delay="0.1s" style="background: #f5f5f7; ">
+<div class="container-fluid wow fadeInUp mb-5" data-wow-delay="0.1s" >
     <div class="container py-5">
         <div class="section-title text-center position-relative pb-3 mb-3 mx-auto" style="max-width: 800px;">
-            <h5 class="fw-bold text-primary text-uppercase">Digitalization and automation</h5>
+            <h5 class="fw-bold text-primary">Digitalization and Automation</h5>
             <h1 class="mb-0">ECM for you</h1>
         </div>
         <div class="row g-5">
@@ -151,7 +151,7 @@
             </div>
             <div class="col-lg-4  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
                 <div class="position-relative h-100">
-                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="img/printing3.jpg" style="object-fit: cover;">
+                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.5s" src="img/printing16.jpg" style="object-fit: cover;">
                 </div>
             </div>
             <div class="col-lg-4">
@@ -183,12 +183,12 @@
 </div>
 
 
-<div class="container-fluid wow fadeInUp mb-5" data-wow-delay="0.1s" >
+<div class="container-fluid wow fadeInUp mb-5" data-wow-delay="0.1s" style="background: #f8f9fa;">
     <div class="container py-5">       
         <div class="row g-5 mb-5">
             <div class="col-lg-6">
                 <div class="section-title text-center position-relative pb-3 mb-3 mx-auto" style="max-width: 800px;">
-                    <h5 class="fw-bold text-primary text-uppercase">Collaboration with ELO</h5>
+                    <h5 class="fw-bold text-primary">Collaboration with ELO</h5>
                     <h1 class="mb-0">Teamwork Goes Digital</h1>
                 </div>
                 <div class="row g-5">
@@ -254,7 +254,7 @@
             <div class="col-lg-6">
                 <div class="section-title text-center position-relative pb-3 mb-3 mx-auto" style="max-width: 800px;">
                     <h5 class="fw-bold text-primary">ELO iSearch</h5>
-                    <h1 class="mb-0">Stop searching, start finding</h1>
+                    <h2 class="mb-0">Stop searching, start finding</h2>
                 </div>
                 <div class="row g-5">
                     <div class="col-12 wow zoomIn" data-wow-delay="0.2s">                       
@@ -318,7 +318,7 @@
             <div class="col-lg-6">
                 <div class="section-title text-center position-relative pb-3 mb-3 mx-auto" style="max-width: 800px;">
                     <h5 class="fw-bold text-primary">Intelligent ECM</h5>
-                    <h1 class="mb-0">Automate right from the start</h1>
+                    <h2 class="mb-0">Automate right from the start</h2>
                 </div>
                 <div class="row g-5">
                     <div class="col-12 wow zoomIn" data-wow-delay="0.2s">                       
@@ -352,11 +352,11 @@
 </div>
 
 
-<div class="container-fluid wow fadeInUp mb-5" data-wow-delay="0.1s" style="background: #f5f5f7; ">
+<div class="container-fluid wow fadeInUp mb-5" data-wow-delay="0.1s" style="background: #f8f9fa;">
     <div class="container py-5">
         <div class="section-title text-center position-relative pb-3 mb-3 mx-auto" style="max-width: 800px;">
-            <h5 class="fw-bold text-primary text-uppercase">ELO Analytics</h5>
-            <h1 class="mb-0">Real-time data analysis</h1>
+            <h5 class="fw-bold text-primary">ELO Analytics</h5>
+            <h2 class="mb-0">Real-time Data Analysis</h2>
         </div>
         <div class="row g-5">
             <div class="col-lg-4">
@@ -379,7 +379,7 @@
             </div>
             <div class="col-lg-4  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
                 <div class="position-relative h-100">
-                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="img/printing3.jpg" style="object-fit: cover;">
+                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="img/office47.jpg" style="object-fit: cover;">
                 </div>
             </div>
             <div class="col-lg-4">
@@ -413,7 +413,7 @@
 <div class="container-fluid py-0 wow fadeInUp mb-5" data-wow-delay="0.1s" >
     <div class="container py-0">
         <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">    
-            <h5 class="fw-bold text-primary text-uppercase">Compliance and data privacy</h5>    
+            <h5 class="fw-bold text-primary">Compliance and Data Privacy</h5>    
             <h2 class="mb-0">Get data security right</h2>
         </div>
         <div class="row g-5">
@@ -470,7 +470,7 @@
 </div>
 
 
-<div class="container-fluid wow fadeInUp mb-5" data-wow-delay="0.1s" >
+<div class="container-fluid wow fadeInUp mb-5" data-wow-delay="0.1s" style="background: #f8f9fa;">
     <div class="container py-5">
         <div class="row g-5 mb-5">         
             <div class="col-lg-6">
@@ -519,6 +519,7 @@
     </div>
 </div>
 
+
 <div class="container-fluid wow fadeInUp mb-5" data-wow-delay="0.1s" >
     <div class="container py-5">
         <div class="row g-5 mb-5"> 
@@ -529,7 +530,7 @@
             </div>        
             <div class="col-lg-6">
                 <div class="section-title text-center position-relative pb-3 mb-3 mx-auto" style="max-width: 800px;">
-                    <h5 class="fw-bold text-primary">ELO e-mail management</h5>
+                    <h5 class="fw-bold text-primary">ELO e-mail Management</h5>
                     <h2 class="mb-0">Get your e-mail under control</h2>
                 </div>
                 <div class="row g-5">
@@ -570,7 +571,8 @@
     </div>
 </div>
 
-<div class="container-fluid wow fadeInUp mb-5" data-wow-delay="0.1s" >
+
+<div class="container-fluid wow fadeInUp mb-5" data-wow-delay="0.1s" style="background: #f8f9fa;">
     <div class="container py-5">
         <div class="row g-5 mb-5">      
             <div class="col-lg-6">
@@ -632,7 +634,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="section-title text-center position-relative pb-3 mb-3 mx-auto" style="max-width: 800px;">
-                    <h5 class="fw-bold text-primary">Mobile working with ELO</h5>
+                    <h5 class="fw-bold text-primary">Mobile Working with ELO</h5>
                     <h2 class="mb-0">Mobility means flexibility</h2>
                 </div>
                 <div class="row g-5">

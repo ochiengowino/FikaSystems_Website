@@ -143,7 +143,7 @@
                
                     <h2 class="text-white mb-0">+254 20 2495918</h2>
                 </div> --}}
-                <div class="bg-primary rounded h-100 d-flex align-items-center p-5 wow zoomIn" data-wow-delay="0.9s">
+                <div class="bg-primary rounded d-flex align-items-center p-5 wow zoomIn" data-wow-delay="0.9s">
                     <form method="post" action="inquiry">
                         {{csrf_field()}}
 

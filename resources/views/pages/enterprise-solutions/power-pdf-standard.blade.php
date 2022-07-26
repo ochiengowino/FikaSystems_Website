@@ -88,37 +88,31 @@
 
 <div class="container-fluid py-0 wow fadeInUp" data-wow-delay="0.1s" >
     <div class="container py-0">
-        <div class="row g-5">
-            
+        <div class="row g-5">           
             <div class="col-lg-6">
-                <div class="row g-5">
-                    <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
-                        
-                        <h4>Benefits of Power PDF Standard</h4>
-                        <h5 class="mb-1"><i class="fa fa-check text-primary me-3"></i>Don’t retype your documents</h5> 
-                        <p class="mb-3">If you must work with PDF documents in other applications, don’t waste time re-creating them—convert them. Complex layouts with columns, tables and graphics are faithfully reproduced in Microsoft Word, Excel, PowerPoint and Corel WordPerfect documents.</p>
-                        
-                        <h5 class="mb-1"><i class="fa fa-check text-primary me-3"></i>Create and assemble PDFs easily from any application</h5> 
-                        <p class="mb-3">Instantly create 100% industry-standard PDF files with security options that are fully compliant and compatible with all PDF viewers. Combine files and remove or replace pages with drag-and-drop ease.</p>
+                <div class="wow zoomIn" data-wow-delay="0.2s">                        
+                    <h4>Benefits of Power PDF Standard</h4>
+                    <h5 class="mb-1"><i class="fa fa-check text-primary me-3"></i>Don’t retype your documents</h5> 
+                    <p class="mb-3">If you must work with PDF documents in other applications, don’t waste time re-creating them—convert them. Complex layouts with columns, tables and graphics are faithfully reproduced in Microsoft Word, Excel, PowerPoint and Corel WordPerfect documents.</p>
+                    
+                    <h5 class="mb-1"><i class="fa fa-check text-primary me-3"></i>Create and assemble PDFs easily from any application</h5> 
+                    <p class="mb-3">Instantly create 100% industry-standard PDF files with security options that are fully compliant and compatible with all PDF viewers. Combine files and remove or replace pages with drag-and-drop ease.</p>
 
-                        <h5 class="mb-1"><i class="fa fa-check text-primary me-3"></i>Archive important emails as PDFs</h5> 
-                        <p class="mb-3">Save Microsoft Outlook emails as PDF files along with any
-                            attachments and links.</p>
+                    <h5 class="mb-1"><i class="fa fa-check text-primary me-3"></i>Archive important emails as PDFs</h5> 
+                    <p class="mb-3">Save Microsoft Outlook emails as PDF files along with any
+                        attachments and links.</p>
 
-                        <h5 class="mb-1"><i class="fa fa-check text-primary me-3"></i>Enhance document security</h5> 
-                        <p class="mb-3">Add passwords with secure 128-bit or 256-bit AES encryption and permission controls to PDF files to control document viewing, printing and modification.</p>
+                    <h5 class="mb-1"><i class="fa fa-check text-primary me-3"></i>Enhance document security</h5> 
+                    <p class="mb-3">Add passwords with secure 128-bit or 256-bit AES encryption and permission controls to PDF files to control document viewing, printing and modification.</p>
 
-                        <h5 class="mb-1"><i class="fa fa-check text-primary me-3"></i>Manage and access your documents in the cloud</h5> 
-                        <p class="mb-3">Save and access your stored documents in the cloud by connecting directly to Box, Dropbox, Evernote, Google Drive or Microsoft OneDrive. You will have access to your documents anytime, anywhere.</p>
+                    <h5 class="mb-1"><i class="fa fa-check text-primary me-3"></i>Manage and access your documents in the cloud</h5> 
+                    <p class="mb-3">Save and access your stored documents in the cloud by connecting directly to Box, Dropbox, Evernote, Google Drive or Microsoft OneDrive. You will have access to your documents anytime, anywhere.</p>
 
-                        <h5 class="mb-1"><i class="fa fa-check text-primary me-3"></i>Perform smarter searches</h5> 
-                        <p class="mb-3">Benefit from advanced search functions that list and highlight all instances of found words on the document, so you can locate them easily. Use the intelligent Looks Like Search™ capability to find information like phone numbers, email addresses and Social Security numbers via alphanumeric patterns instead of exact text.</p>
-
-                    </div>
-                 
-                </div>
+                    <h5 class="mb-1"><i class="fa fa-check text-primary me-3"></i>Perform smarter searches</h5> 
+                    <p class="mb-3">Benefit from advanced search functions that list and highlight all instances of found words on the document, so you can locate them easily. Use the intelligent Looks Like Search™ capability to find information like phone numbers, email addresses and Social Security numbers via alphanumeric patterns instead of exact text.</p>
+                </div>               
             </div>
-            <div class="col-lg-6  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
+            <div class="col-lg-6 col-md-4 mb-5 wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
                 <h4>Newest Capabilities</h4>
 
                 <p class="mb-1"><i class="fa fa-check text-primary me-3"></i>Boosts document conversion accuracy through Kofax OCR version 21</p>
@@ -127,14 +121,62 @@
                 <p class="mb-1"><i class="fa fa-check text-primary me-3"></i>Technology and environment updates, including improved recognition for local languages</p>
                 <p class="mb-1"><i class="fa fa-check text-primary me-3"></i>Improved adherence to accessibility standards and regulations with expanded PDF/Universal Accessibility creation</p>
                 <p class="mb-1"><i class="fa fa-check text-primary me-3"></i>Native cloud integration with Microsoft OneDrive, Dropbox, Box and Google Drive cloud storage</p>
-                <p class="mb-1"><i class="fa fa-check text-primary me-3"></i>Enhanced Combine File capabilities to merge multiple PDF files</p>
-            </div>
-  
-        </div>
+                <p class="mb-5"><i class="fa fa-check text-primary me-3"></i>Enhanced Combine File capabilities to merge multiple PDF files</p>
 
-        
+                <div class="bg-primary rounded d-flex align-items-center p-5 wow zoomIn" data-wow-delay="0.9s">
+                    <form method="post" action="inquiry">
+                        {{csrf_field()}}
+
+                        @if(Session::has('success'))
+                            <div class="alert alert-success">
+                                {{ Session::get('success') }}
+                            </div>
+                        @endif
+                        
+                        <div class="row g-3">
+                            <div class="col-xl-12">
+                                <input type="text" class="form-control @error('name') is-invalid @enderror bg-light border-0" name="name" placeholder="Your Name" style="height: 55px;">
+                                @error('name')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                            <div class="col-12">
+                                <input type="email" class="form-control @error('email') is-invalid @enderror bg-light border-0" name="email" placeholder="Your Email" style="height: 55px;">
+                                @error('email')
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                                @enderror
+                            </div>
+                            <div class="col-12">
+                                <input type="phone" class="form-control  @error('phone') is-invalid @enderror bg-light border-0" name="phone" placeholder="Your Phone No." style="height: 55px;">
+                                @error('phone')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                            <div class="col-12">
+                                <textarea class="form-control @error('message') is-invalid @enderror bg-light border-0" rows="3" name="message" placeholder="Message"></textarea>
+                                @error('message')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-dark w-100 py-3" type="submit">Contact Us for Inquiry</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
+
 <br>
 
 
