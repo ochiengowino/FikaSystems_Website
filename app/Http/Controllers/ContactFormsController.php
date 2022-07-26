@@ -5,9 +5,11 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\Models\ContactForm; 
+use App\Models\InquiryForm; 
 // use Mail; 
 use Illuminate\Support\Facades\Mail;
-use App\Mail\ContactMail
+use App\Mail\ContactMail;
+use App\Mail\InquiryMail;
 ;
 class ContactFormsController extends Controller
 {
@@ -48,6 +50,8 @@ class ContactFormsController extends Controller
         return back()->with('success', 'Thank you for contacting us!');
     }
 
+
+    
     /**
      * Show the form for creating a new resource.
      *
@@ -64,9 +68,32 @@ class ContactFormsController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function saveInquiry(Request $request)
     {
-        //
+        $this->validate($request, [
+            'name' => 'required',
+            'email' => 'required|email',
+            'phone' => 'required',
+            'message' => 'required'
+        ]);
+
+        $inquiry = new InquiryForm();
+
+        $inquiry->name = $request->name;
+        $inquiry->email = $request->email;
+        $inquiry->phone_number = $request->phone;
+        $inquiry->message = $request->message;
+        $inquiry->save();
+        // dd($inquiry);
+        $data = array(
+            'name' => $request->get('name'),
+            'email' => $request->get('email'),
+            'phone' => $request->get('phone'),
+            'message' => $request->get('message'),
+        );
+
+        Mail::to('bochieng@kenlinksolutions.com')->send(new InquiryMail($data));
+        return back()->with('success', 'Thank you for contacting us!');    
     }
 
     /**

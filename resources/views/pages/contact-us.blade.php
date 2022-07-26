@@ -70,7 +70,7 @@
 
                     <div class="row g-3">
                         <div class="col-md-6">
-                            <input type="text" class="form-control @error('name') is-invalid @enderror border-0 bg-light px-4" name="name" placeholder="Your Name" style="height: 55px;">
+                            <input type="text" class="form-control @error('name') is-invalid @enderror border-0 bg-light px-4" name="name" placeholder="Name" style="height: 55px;">
                             @error('name')
                                 <span class="invalid-feedback" role="alert">
                                     <strong>{{ $message }}</strong>
@@ -78,7 +78,7 @@
                             @enderror
                         </div>
                         <div class="col-md-6">
-                            <input type="email" class="form-control @error('email') is-invalid @enderror border-0 bg-light px-4" name="email" placeholder="Your Email" style="height: 55px;">
+                            <input type="email" class="form-control @error('email') is-invalid @enderror border-0 bg-light px-4" name="email" placeholder="Email" style="height: 55px;">
                             @error('email')
                                 <span class="invalid-feedback" role="alert">
                                     <strong>{{ $message }}</strong>
@@ -86,7 +86,7 @@
                             @enderror
                         </div>
                         <div class="col-md-12">
-                            <input type="tel" class="form-control @error('phone') is-invalid @enderror border-0 bg-light px-4" name="phone" placeholder="Your Phone Number" style="height: 55px;">
+                            <input type="tel" class="form-control @error('phone') is-invalid @enderror border-0 bg-light px-4" name="phone" placeholder="Phone Number" style="height: 55px;">
                             @error('phone')
                                 <span class="invalid-feedback" role="alert">
                                     <strong>{{ $message }}</strong>

@@ -40,9 +40,6 @@
         </p> 
         <p>
             <b>Phone Number:</b> {{ $data['phone'] }}
-        </p> 
-        <p>
-            <b>Subject:</b> {{ $data['subject'] }}
         </p>  
         <p>
             <b>Message:</b> {{ $data['message'] }}

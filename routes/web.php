@@ -33,6 +33,8 @@ Route::get('/contact-us', 'WebsiteController@contact');
 
 Route::post('/contact-us', 'ContactFormsController@saveContact');
 
+Route::post('/inquiry', 'ContactFormsController@saveInquiry');
+
 Route::get('/software-applications', 'WebsiteController@softwareApps');
 
 Route::get('/index2', 'WebsiteController@index2');

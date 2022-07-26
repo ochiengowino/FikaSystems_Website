@@ -38,7 +38,7 @@
 <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
     <div class="container py-5">
         <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-            <h1 class="mb-0">Capture & Print Solutions</h1>
+            <h2 class="mb-0">Capture & Print Solutions</h2>
             <p>Modernize slow, manual, error-prone or expensive processes related to processing documents and electronic data.</p>
         </div>
         <div class="row g-5">
@@ -223,7 +223,7 @@
 <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s" style="background: #f8f9fa;">
     <div class="container py-5">
         <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 800px;">
-            <h1 class="mb-0">Use AI to Turn Documents and Data Into Savings and Simplicity</h1>
+            <h2 class="mb-0">Use AI to Turn Documents and Data Into Savings and Simplicity</h2>
         </div>
         <div class="row g-5">
             <div class="col-lg-12">
