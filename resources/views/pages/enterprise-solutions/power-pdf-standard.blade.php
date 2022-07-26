@@ -14,7 +14,7 @@
 
 {{-- style="margin-bottom: 90px;" --}}
 <!-- Features Start -->
-<div class="container-fluid wow fadeInUp mb-5" data-wow-delay="0.1s" style="background: #f5f5f7; ">
+<div class="container-fluid wow fadeInUp mb-5" data-wow-delay="0.1s">
     <div class="container py-5">
         <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
             <h5 class="fw-bold text-primary text-uppercase">Kofax
@@ -48,7 +48,7 @@
 <!-- Features Start -->
 
 <!-- About Start -->
-<div class="container-fluid py-0 wow fadeInUp mb-5" data-wow-delay="0.1s" style="background: #f8f9fa">
+<div class="container-fluid mb-5 py-0 wow fadeInUp mb-5" data-wow-delay="0.1s" style="background: #f8f9fa;">
     <div class="container py-0">
         <div class="row g-5">
             <div class="col-lg-6  wow zoomIn mb-3" data-wow-delay="0.9s" style="min-height: 350px;">
