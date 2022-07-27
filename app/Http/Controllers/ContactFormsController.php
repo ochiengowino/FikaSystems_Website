@@ -10,7 +10,9 @@ use App\Models\InquiryForm;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\ContactMail;
 use App\Mail\InquiryMail;
-;
+use App\Mail\ContactReply;
+use App\Mail\InquiryReply;
+
 class ContactFormsController extends Controller
 {
     /**
@@ -47,6 +49,17 @@ class ContactFormsController extends Controller
 
         
         Mail::to('bochieng@kenlinksolutions.com')->send(new ContactMail($data));
+
+        Mail::to($data['email'])->send(new ContactReply($data));
+        // Mail::send('pages.contact-email', $data, function ($message) use ($data) {
+        //     $message->from($data['email']);
+        //     $message->to('bochieng@kenlinksolutions.com')->subject($data['subject']);
+        // });
+        
+        // Mail::send('pages.inquiry-email', $data, function ($message) use ($data) {
+        //     $message->from('bochieng@kenlinksolutions.com');
+        //     $message->to($data['email'])->subject('Thank you for the interest');
+        // });
         return back()->with('success', 'Thank you for contacting us!');
     }
 
@@ -93,7 +106,10 @@ class ContactFormsController extends Controller
         );
 
         Mail::to('bochieng@kenlinksolutions.com')->send(new InquiryMail($data));
-        return back()->with('success', 'Thank you for contacting us!');    
+
+        Mail::to($data['email'])->send(new InquiryReply($data));
+
+        return back()->with('success', 'Thank you for your inquiry!');    
     }
 
     /**

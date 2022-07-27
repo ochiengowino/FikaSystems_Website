@@ -7,7 +7,7 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
-class InquiryMail extends Mailable
+class InquiryReply extends Mailable
 {
     use Queueable, SerializesModels;
 
@@ -32,9 +32,9 @@ class InquiryMail extends Mailable
 
     public function build()
     {
-        return $this->from($this->data['email'])
-        ->subject('New Inquiry Request')
-        ->view('pages.inquiry-email')
-        ->with('data', $this->data);
+        return $this->from('bochieng@kenlinksolutions.com')
+            ->subject('New Inquiry Request')
+            ->view('pages.inquiry-reply')
+            ->with('data', $this->data);
     }
 }

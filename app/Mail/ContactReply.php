@@ -7,7 +7,7 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
-class InquiryMail extends Mailable
+class ContactReply extends Mailable
 {
     use Queueable, SerializesModels;
 
@@ -18,7 +18,7 @@ class InquiryMail extends Mailable
      *
      * @return void
      */
-    
+
     public function __construct($data)
     {
         $this->data = $data;
@@ -29,12 +29,12 @@ class InquiryMail extends Mailable
      *
      * @return $this
      */
-
+    
     public function build()
     {
-        return $this->from($this->data['email'])
-        ->subject('New Inquiry Request')
-        ->view('pages.inquiry-email')
-        ->with('data', $this->data);
+        return $this->from('bochieng@kenlinksolutions.com')
+            ->subject('Thank you for contacting us')
+            ->view('pages.contact-reply')
+            ->with('data', $this->data);
     }
 }
