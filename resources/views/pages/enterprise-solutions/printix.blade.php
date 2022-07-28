@@ -15,7 +15,7 @@
 
 
 <!-- Features Start -->
-<div class="container-fluid wow fadeInUp mb-5" data-wow-delay="0.1s" style="background: #f5f5f7; ">
+<div class="container-fluid wow fadeInUp mb-5" data-wow-delay="0.1s" style="background: #f8f9fa;">
     <div class="container py-5">
         <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 800px;">
             <h5 class="fw-bold text-primary text-uppercase">Printix</h5>
@@ -125,7 +125,7 @@
 
 
 <!-- About End -->
-<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s" >
+<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s"  style="background: #f8f9fa;">
     <div class="container py-5">
         <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">         
             <h2 class="mb-0">How Printix Can Help</h2>
@@ -185,34 +185,46 @@
                     <p class="m-0">Extend Google Workspace with a print-ready experience that’s quick and easy to use and Chrome OS secure.</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
-                <div class="bg-primary rounded h-100 d-flex align-items-center p-5 wow zoomIn" data-wow-delay="0.9s">
-                    <form>
-                        <div class="row g-3">
-                            <div class="col-xl-12">
-                                <input type="text" class="form-control bg-light border-0" placeholder="Your Name" style="height: 55px;">
-                            </div>
-                            <div class="col-12">
-                                <input type="email" class="form-control bg-light border-0" placeholder="Your Email" style="height: 55px;">
-                            </div>
-                            <div class="col-12">
-                                <input type="phone" class="form-control bg-light border-0" placeholder="Your Phone No." style="height: 55px;">
-                            </div>
-                            <div class="col-12">
-                                <textarea class="form-control bg-light border-0" rows="3" placeholder="Message"></textarea>
-                            </div>
-                            <div class="col-12">
-                                <button class="btn btn-dark w-100 py-3" type="submit">Contact Us for Inquiry</button>
-                            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid wow fadeInUp" data-wow-delay="0.1s" style="background:#dee2e6">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+                <div class="mb-5 wow fadeInUp h-75 p-5 rounded" data-wow-delay="0.1s" style="background: #091E3E;">
+                    <div class="container py-5">
+                        <div class="row">
+                            <div class="pb-3 mb-3 mx-auto align-items-center justify-content-center text-center" style="max-width: 1000px;">
+                                <h3 class="mb-0 text-light">All Information at a Glance can be Found Here.</h3>
+                            </div>                          
+                            <a href="/download-file" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Product Brochure</a>
                         </div>
-                    </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+                <div class="position-relative bg-primary rounded h-75 d-flex flex-column align-items-center justify-content-center text-center p-5">
+                    <h3 class="text-white mb-3">Call Us for an Immediate Feedback</h3>
+                    <h2 class="text-white mb-0">+254 11 4518893</h2>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+                <div class="mb-5 wow fadeInUp h-75 p-5 rounded" data-wow-delay="0.1s" style="background: #091E3E;">
+                    <div class="container py-5">
+                        <div class="row">
+                            <div class="pb-3 mb-3 mx-auto align-items-center justify-content-center text-center" style="max-width: 1000px;">
+                                <h3 class="mb-0 text-light">Questions? We Can Help.</h3>
+                            </div>                          
+                            <a href="/inquiry" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Request for an Inquiry</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
-<br>
 
 
 @endsection

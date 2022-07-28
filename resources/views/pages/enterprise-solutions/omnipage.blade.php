@@ -86,7 +86,42 @@
 <!-- Features Start -->
 
 
-<br>
+<div class="container-fluid wow fadeInUp" data-wow-delay="0.1s" style="background:#dee2e6">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+                <div class="mb-5 wow fadeInUp h-75 p-5 rounded" data-wow-delay="0.1s" style="background: #091E3E;">
+                    <div class="container py-5">
+                        <div class="row">
+                            <div class="pb-3 mb-3 mx-auto align-items-center justify-content-center text-center" style="max-width: 1000px;">
+                                <h3 class="mb-0 text-light">All Information at a Glance can be Found Here.</h3>
+                            </div>                          
+                            <a href="/download-file" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Product Brochure</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+                <div class="position-relative bg-primary rounded h-75 d-flex flex-column align-items-center justify-content-center text-center p-5">
+                    <h3 class="text-white mb-3">Call Us for an Immediate Feedback</h3>
+                    <h2 class="text-white mb-0">+254 11 4518893</h2>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+                <div class="mb-5 wow fadeInUp h-75 p-5 rounded" data-wow-delay="0.1s" style="background: #091E3E;">
+                    <div class="container py-5">
+                        <div class="row">
+                            <div class="pb-3 mb-3 mx-auto align-items-center justify-content-center text-center" style="max-width: 1000px;">
+                                <h3 class="mb-0 text-light">Questions? We Can Help.</h3>
+                            </div>                          
+                            <a href="/inquiry" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Request for an Inquiry</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 @endsection

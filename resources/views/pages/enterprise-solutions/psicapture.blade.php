@@ -22,15 +22,11 @@
         <div class="row g-5 mb-5">
             <div class="col-lg-6">
                 <div class="row g-5">
-                    <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
-                        
+                    <div class="col-12 wow zoomIn" data-wow-delay="0.2s">                    
                         <h2>Work the Way You Want with PSIcapture</h2>
                         <p class="mb-3">Competitively priced and uniquely versatile, PSIcapture is a single platform designed to meet your capture needs, including document scanning and import, forms processing, OCR/ICR data extraction and the ability to migrate the information into a document repository. No matter the size and scope of an organization, PSIcapture makes document processes easy.</p>
-
                     </div>
-                 
-                </div>
-                
+                </div>              
             </div>
             <div class="col-lg-6  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
                 <div class="position-relative h-100">
@@ -46,19 +42,15 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
-                <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                   
+                <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">                   
                     <h4 class="mb-3">Extract and Classify</h4>
-                    <p class="m-0">Extract and identify documents by type, using powerful automation tools that accelerate productivity.</p>
-                    
+                    <p class="m-0">Extract and identify documents by type, using powerful automation tools that accelerate productivity.</p>          
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
-                <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                   
+                <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">                  
                     <h4 class="mb-3">Publish</h4>
-                    <p class="m-0">Migrate your data to Document Management, Line of Business and ECM Systems through either load files or direct connection.</p>
-                    
+                    <p class="m-0">Migrate your data to Document Management, Line of Business and ECM Systems through either load files or direct connection.</p>                  
                 </div>
             </div>
         </div>
@@ -68,28 +60,23 @@
 
 
 
-<div class="container-fluid py-0 wow fadeInUp mb-5" data-wow-delay="0.1s" >
+<div class="container-fluid py-0 wow fadeInUp mb-5" data-wow-delay="0.1s" style="background: #f8f9fa;">
     <div class="container py-0">
-        <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-          
-            <h1 class="mb-0">Why Customers Choose PSIcapture</h1>
-            {{-- <p>Market-Leading PDF, OCR and document conversion solutions.</p> --}}
+        <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 800px;">
+            <h2 class="mb-0">Why Customers Choose PSIcapture</h2>
         </div>
         <div class="row g-5">
-            {{-- <h4 class="text-center">Why Customers Choose Printix</h4> --}}
             <div class="col-lg-4" style="min-height: 400px;">
                 <div class="position-relative h-100">
                     <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="img/printing70.jpg" style="object-fit: cover;">
                 </div>
             </div>
             <div class="col-lg-4">
-
-                {{-- <p>Kofax ControlSuite combines advanced document capture, print and output management, and mobile capabilities to apply security controls, track and monitor compliance policies, and automate document collection, processing, routing and storage tasks.</p> --}}
-                    <h5>Proprietary n+1 Processor Balancing for OCR</h5>
-                    <p class="mb-3">PSIcapture can utilize four, eight, 12 or 16 core processors to increase power. OCR processing increases depending on how many processors are being used.</p>
-                
-                    <h5>Accelerated Classification Engine (ACE) </h5>
-                    <p class="mb-3">ACE allows users to build classification rules in the middle of a workflow. Import documents and verify the automatic classification it’s completed during the workflow, rather than configuring rules prior.</p>
+                <h5>Proprietary n+1 Processor Balancing for OCR</h5>
+                <p class="mb-3">PSIcapture can utilize four, eight, 12 or 16 core processors to increase power. OCR processing increases depending on how many processors are being used.</p>
+            
+                <h5>Accelerated Classification Engine (ACE) </h5>
+                <p class="mb-3">ACE allows users to build classification rules in the middle of a workflow. Import documents and verify the automatic classification it’s completed during the workflow, rather than configuring rules prior.</p>
             </div>
             <div class="col-lg-4">
                 <h5>Increased Productivity and Reduced Cost</h5>
@@ -98,10 +85,7 @@
                 <h5>Easy Integration</h5>
                 <p class="mb-3">With over 60+ ECM and file/folder types to choose from, PSIcapture integrates easily into your organization's ecosystem. Move files to ECMs like Microsoft SharePoint, DocuWare and OnBase or into a folder on your company server.</p>
             </div>
-        
         </div>
-
-        
     </div>
 </div>
 
@@ -110,9 +94,7 @@
 <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
     <div class="container py-5">
         <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-            {{-- <h5 class="fw-bold text-primary text-uppercase">Printing & Imaging</h5> --}}
             <h2 class="mb-0">How PSIcapture Can Help</h2>
-            {{-- <p>Modernize slow, manual, error-prone or expensive processes related to processing documents and electronic data.</p> --}}
         </div>
         <div class="row g-5">
             <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
@@ -147,49 +129,76 @@
                     
                 </div>
             </div>
-            
-            <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
-                <div class="position-relative bg-primary rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-5">
-                    <h3 class="text-white mb-3">Call Us for Inquiry</h3>
-                    {{-- <p class="text-white mb-3">Clita ipsum magna kasd rebum at ipsum amet dolor justo dolor est magna stet eirmod</p> --}}
-                    <h2 class="text-white mb-0">+254 20 2495918</h2>
-                </div>
-            </div>
         </div>
     </div>
 </div>
 
 
-<div class="container-fluid wow fadeInUp mb-5" data-wow-delay="0.1s" >
+<div class="container-fluid wow fadeInUp mb-5" data-wow-delay="0.1s" style="background: #f8f9fa;">
     <div class="container py-5">
         <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 800px;">
             <h5 class="fw-bold text-primary text-uppercase">PSICAPTURE FUSION</h5>
             <h2 class="mb-0">Take The Pain Out of Indexing and Validating</h2>
-        </div>
-    
-        <p>Ideal for teams that are spread out in several or many locations, PSIcapture Fusion utilizes a team-level organization with designated supervisors to maintain security and compliance, making the process of managing document queues simple. With a built-in barcode generator and seamless integration with PSIcapture, Fusion’s true integration allows you to leverage all the complex capture functionality of PSIcapture in front-end processing and provides a simple, seamless route to PSIcapture Fusion export.</p>
-        
-        <div class="row g-5 mb-5">
-            <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+        </div> 
+        <p>Ideal for teams that are spread out in several or many locations, PSIcapture Fusion utilizes a team-level organization with designated supervisors to maintain security and compliance, making the process of managing document queues simple. With a built-in barcode generator and seamless integration with PSIcapture, Fusion’s true integration allows you to leverage all the complex capture functionality of PSIcapture in front-end processing and provides a simple, seamless route to PSIcapture Fusion export.</p>       
+        <div class="row g-5">
+            <div class="col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.9s">
                 <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">                  
                     <h4 class="mb-3">Queue</h4>
                     <p class="m-0">Automatically queues documents that have been captured by PSIcapture.</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+            <div class="col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.9s">
                 <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">                  
                     <h4 class="mb-3">Index & Validate</h4>
                     <p class="m-0">Authorized users are able to perform manual indexing or validate automatically extracted data.</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+            <div class="col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.9s">
                 <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">                  
                     <h4 class="mb-3">Route</h4>
                     <p class="m-0">Processed documents are routed to the organization’s ECM system.</p>
                 </div>
             </div>
+        </div>        
+    </div>
+</div>
+
+
+<div class="container-fluid wow fadeInUp" data-wow-delay="0.1s" style="background:#dee2e6">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+                <div class="mb-5 wow fadeInUp h-75 p-5 rounded" data-wow-delay="0.1s" style="background: #091E3E;">
+                    <div class="container py-5">
+                        <div class="row">
+                            <div class="pb-3 mb-3 mx-auto align-items-center justify-content-center text-center" style="max-width: 1000px;">
+                                <h3 class="mb-0 text-light">All Information at a Glance can be Found Here.</h3>
+                            </div>                          
+                            <a href="/download-file" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Product Brochure</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+                <div class="position-relative bg-primary rounded h-75 d-flex flex-column align-items-center justify-content-center text-center p-5">
+                    <h3 class="text-white mb-3">Call Us for an Immediate Feedback</h3>
+                    <h2 class="text-white mb-0">+254 11 4518893</h2>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+                <div class="mb-5 wow fadeInUp h-75 p-5 rounded" data-wow-delay="0.1s" style="background: #091E3E;">
+                    <div class="container py-5">
+                        <div class="row">
+                            <div class="pb-3 mb-3 mx-auto align-items-center justify-content-center text-center" style="max-width: 1000px;">
+                                <h3 class="mb-0 text-light">Questions? We Can Help.</h3>
+                            </div>                          
+                            <a href="/inquiry" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Request for an Inquiry</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        
     </div>
 </div>
 @endsection
