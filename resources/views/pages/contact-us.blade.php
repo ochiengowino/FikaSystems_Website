@@ -30,7 +30,7 @@
                     </div>
                     <div class="ps-4">
                         <h5 class="mb-2">Call to ask any question</h5>
-                        <h4 class="text-primary mb-0">+254 20 2495918</h4>
+                        <h4 class="text-primary mb-0">+254 11 4518893</h4>
                     </div>
                 </div>
             </div>

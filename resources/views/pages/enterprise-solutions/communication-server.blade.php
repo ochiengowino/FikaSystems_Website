@@ -161,7 +161,7 @@
             <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
                 <div class="position-relative bg-primary rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-5">
                     <h3 class="text-white mb-3">Call Us for Inquiry</h3>
-                    <h2 class="text-white mb-0">+254 20 2495918</h2>
+                    <h2 class="text-white mb-0">+254 11 4518893</h2>
                 </div>
             </div>
         </div>

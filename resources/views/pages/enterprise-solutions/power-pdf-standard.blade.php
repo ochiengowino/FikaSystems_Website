@@ -112,7 +112,7 @@
                     <p class="mb-3">Benefit from advanced search functions that list and highlight all instances of found words on the document, so you can locate them easily. Use the intelligent Looks Like Search™ capability to find information like phone numbers, email addresses and Social Security numbers via alphanumeric patterns instead of exact text.</p>
                 </div>               
             </div>
-            <div class="col-lg-6 col-md-4 mb-5 wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
+            <div class="col-lg-6 col-md-4 mb-5 wow zoomIn h-100" data-wow-delay="0.9s" style="min-height: 350px;">
                 <h4>Newest Capabilities</h4>
 
                 <p class="mb-1"><i class="fa fa-check text-primary me-3"></i>Boosts document conversion accuracy through Kofax OCR version 21</p>
@@ -122,8 +122,21 @@
                 <p class="mb-1"><i class="fa fa-check text-primary me-3"></i>Improved adherence to accessibility standards and regulations with expanded PDF/Universal Accessibility creation</p>
                 <p class="mb-1"><i class="fa fa-check text-primary me-3"></i>Native cloud integration with Microsoft OneDrive, Dropbox, Box and Google Drive cloud storage</p>
                 <p class="mb-5"><i class="fa fa-check text-primary me-3"></i>Enhanced Combine File capabilities to merge multiple PDF files</p>
-
-                <div class="bg-primary rounded d-flex align-items-center p-5 wow zoomIn" data-wow-delay="0.9s">
+                
+                <div class="container-fluid mb-5 wow fadeInUp" data-wow-delay="0.1s" style="background: #091E3E;">
+                    <div class="container py-5">
+                        <div class="row">
+                            <div class="text-center position-relative pb-3 mb-3 mx-auto col-lg-8" style="max-width: 1000px;">
+                                {{-- <h5 class="fw-bold text-light text-uppercase">View, edit and sign PDFs anywhere</h5> --}}
+                                <h2 class="mb-0 text-light">Questions? We Can Help.</h2>
+                            </div>
+                            <div class="col-lg-4">
+                                <a href="/inquiry" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Request for an Inquiry</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{-- <div class="bg-primary rounded d-flex align-items-center p-5 wow zoomIn" data-wow-delay="0.9s">
                     <form method="post" action="inquiry">
                         {{csrf_field()}}
 
@@ -171,11 +184,13 @@
                             </div>
                         </div>
                     </form>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>
 </div>
+
+
 
 <br>
 

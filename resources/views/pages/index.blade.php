@@ -10,7 +10,7 @@
                 <div class="p-3" style="max-width: 900px;">
                     <h5 class="text-white text-uppercase mb-3 animated slideInDown">Creative & Innovative</h5>
                     <h1 class="display-1 text-white mb-md-4 animated zoomIn">Document Management Systems</h1>
-                    <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Download Brochure</a>
+                    <a href="/download-file" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Download Brochure</a>
                     <a href="/contact-us" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contact Us</a>
                 </div>
             </div>
@@ -21,7 +21,7 @@
                 <div class="p-3" style="max-width: 900px;">
                     <h5 class="text-white text-uppercase mb-3 animated slideInDown">Creative & Innovative</h5>
                     <h1 class="display-1 text-white mb-md-4 animated zoomIn">Secure Print Management</h1>
-                    <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Download Brochure</a>
+                    <a href="/downloadFile" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Download Brochure</a>
                     <a href="/contact-us" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contact Us</a>
                 </div>
             </div>
@@ -144,7 +144,7 @@
                     </div>
                     <div class="ps-4">
                         <h5 class="mb-2">Call to ask any question</h5>
-                        <h4 class="text-primary mb-0">+254 20 2495918</h4>
+                        <h4 class="text-primary mb-0">+254 11 4518893</h4>
                     </div>
                 </div>
                 {{-- <a href="quote.html" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Request A Quote</a> --}}
@@ -198,7 +198,7 @@
                             <i class="fa fa-users-cog text-white"></i>
                         </div>
                         <h4>Professional Staff</h4>
-                        <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
+                        <p class="mb-0">We have Professional Staff who are driven by compassion and integrity and are ready with a desire to provide contribute to your needs.</p>
                     </div>
                     <div class="col-12 wow zoomIn" data-wow-delay="0.8s">
                         <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">

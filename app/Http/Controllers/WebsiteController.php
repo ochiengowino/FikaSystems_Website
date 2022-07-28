@@ -161,6 +161,12 @@ class WebsiteController extends Controller
         return view('pages.contact-us');
     }
 
+    public function inquiry()
+    {
+        return view('pages.inquiry');
+    }
+
+
     public function softwareApps()
     {
         return view('pages.software-applications');
@@ -192,8 +198,19 @@ class WebsiteController extends Controller
     public function downloadFile()
     {
         $filePath = public_path("fika_brochures/ELO ECM Suite Brochure.pdf");
-        $headers = ['Content-Type: application/pdf'];
+
         $fileName = 'ELO ECM Suite.pdf';
+        $headers = ['Content-Type: application/pdf'];
+ 
+        return response()->download($filePath, $fileName, $headers);
+    }
+
+    public function downloadFile2()
+    {
+        
+        $filePath = public_path("fika_brochures/ds_kofax-power-pdf-standard_en.pdf");
+        $headers = ['Content-Type: application/pdf'];
+        $fileName = 'ds_kofax-power-pdf-advanced_en.pdf';
         return response()->download($filePath, $fileName, $headers);
     }
 
@@ -203,10 +220,6 @@ class WebsiteController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
-    {
-        //
-    }
 
     /**
      * Show the form for editing the specified resource.

@@ -28,7 +28,7 @@
 
         <h2>Hello Admin,</h2>
 
-        <p>You received a contact email from : {{ $data['name'] }}</p> 
+        <p>You received an Inquiry from : {{ $data['name'] }}</p> 
 
         <p>Here are the details:</p>
 

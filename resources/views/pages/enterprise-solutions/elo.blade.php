@@ -571,6 +571,19 @@
     </div>
 </div>
 
+<div class="container-fluid mb-5 wow fadeInUp" data-wow-delay="0.1s" style="background: #091E3E;">
+    <div class="container py-5">
+        <div class="row">
+            <div class="text-center position-relative pb-3 mb-3 mx-auto col-lg-8" style="max-width: 1000px;">
+                {{-- <h5 class="fw-bold text-light text-uppercase">View, edit and sign PDFs anywhere</h5> --}}
+                <h2 class="mb-0 text-light">Questions? We Can Help.</h2>
+            </div>
+            <div class="col-lg-4">
+                <a href="/inquiry" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Request for an Inquiry</a>
+            </div>
+        </div>
+    </div>
+</div>
 
 <div class="container-fluid wow fadeInUp mb-5" data-wow-delay="0.1s" style="background: #f8f9fa;">
     <div class="container py-5">

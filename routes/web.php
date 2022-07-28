@@ -86,3 +86,7 @@ Route::get('/psicapture', 'WebsiteController@psicapture');
 Route::get('/elo', 'WebsiteController@elo');
 
 Route::get('/download-file', 'WebsiteController@downloadFile');
+
+Route::get('/downloadFile', 'WebsiteController@downloadFile2');
+
+Route::get('/inquiry', 'WebsiteController@inquiry');
