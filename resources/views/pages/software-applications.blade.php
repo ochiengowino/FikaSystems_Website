@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+
 <div class="container-fluid bg-primary py-5 bg-header" >
     <div class="row py-5">
         <div class="col-12 pt-lg-5 mt-lg-5 text-center">
@@ -11,9 +12,6 @@
         </div>
     </div>
 </div>
-
-
-
 
 <!-- About Start -->
 <div class="container-fluid py-5 wow fadeInUp mb-4" data-wow-delay="0.1s" >
@@ -47,41 +45,49 @@
                     <p class="">We strictly follow a rigorous project life cycle for every awarded software development assignment and no any aspect is left unanalyzed. Our consultants are involved with you as a partner with their expert advice which helps you explore the new functionalities development with latest technologies advancements.</p>
                 </div>
             </div>
-           
-        
         </div>
-        <br>
-        
     </div>
 </div>
+
 <!-- About End -->
 <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s" style="background: #f5f5f7; ">
     <div class="container" >
         <div class="row g-3">
-         
-                <h4 class="text-center">Business Process Automation</h4>
+            <h4 class="text-center">Business Process Automation</h4>
             <div class="col-6">
                 <p >Every organization is individual and so the needs. Different domains and verticals need different processes. No matter the size of your organization, whether it is SME or large corporation - you have to automate your processes and face new challenges. The automation could be web based or stand alone depending upon your requirement.</p>
                 <p>A canned solution from a vendor might provide you temporary respite. You need to look to an understanding partner for a long term comprehensive solution. Fika is a partner, as well as vendor.</p>
-                       {{-- <div class="vr" style="color: #0000ff"></div> --}}
-                 
-                        
-                   
             </div>
-    
-            {{-- <div class="vl col-1" style="border-right: 6px solid green; height: 300px;"></div> --}}
             <div class="col-6">
-                
-        
                 <p>You can start off with automating one department and then implement it enterprise-wise.</p>
-
                 <p>Fika's expertise lies in automating various departments like sales, marketing, HR, administration, Documentation etc.</p>
             </div>
-
-            
         </div>
     </div>
 </div>
 
-
+<div class="container-fluid wow fadeInUp" data-wow-delay="0.1s" style="background:#dee2e6">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+                <div class="position-relative bg-primary rounded h-75 d-flex flex-column align-items-center justify-content-center text-center p-5">
+                    <h3 class="text-white mb-3">Call Us for an Immediate Feedback</h3>
+                    <h2 class="text-white mb-0">+254 11 4518893</h2>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+                <div class="mb-5 wow fadeInUp h-75 p-5 rounded" data-wow-delay="0.1s" style="background: #091E3E;">
+                    <div class="container py-5">
+                        <div class="row">
+                            <div class="pb-3 mb-3 mx-auto align-items-center justify-content-center text-center" style="max-width: 1000px;">
+                                <h3 class="mb-0 text-light">Questions? We Can Help.</h3>
+                            </div>                          
+                            <a href="/inquiry" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Request for an Inquiry</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 @endsection

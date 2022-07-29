@@ -39,20 +39,14 @@
 <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
     <div class="container py-5">
         <div class="row g-5">
-            <!-- Blog list Start -->
             <div class="col-lg-12">
                 <div class="row g-5">
                     <div class="col-md-4 wow slideInUp" data-wow-delay="0.1s">
                         <div class="blog-item bg-light rounded overflow-hidden">
                             <div class="blog-img position-relative overflow-hidden">
                                 <img class="img-fluid" src="img/education.jpg" alt="">
-                                {{-- <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a> --}}
                             </div>
                             <div class="p-4">
-                                <div class="d-flex mb-3">
-                                    {{-- <small class="me-3"><i class="far fa-user text-primary me-2"></i>John Doe</small>
-                                    <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small> --}}
-                                </div>
                                 <h4 class="mb-3">Education </h4>
                                 <p>One of the fast growing industries of the world has redefined itself by inclusion of new technologies into it.</p>
                                 <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
@@ -63,13 +57,8 @@
                         <div class="blog-item bg-light rounded overflow-hidden">
                             <div class="blog-img position-relative overflow-hidden">
                                 <img class="img-fluid" src="img/telecoms1.jpg" alt="">
-                                {{-- <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a> --}}
                             </div>
-                            <div class="p-4">
-                                <div class="d-flex mb-3">
-                                    {{-- <small class="me-3"><i class="far fa-user text-primary me-2"></i>John Doe</small>
-                                    <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small> --}}
-                                </div>
+                            <div class="p-4">                                
                                 <h4 class="mb-3">Telecoms</h4>
                                 <p>Fika has thorough understanding of telecommunication services and manufacturing.</p>
                                 <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
@@ -80,13 +69,8 @@
                         <div class="blog-item bg-light rounded overflow-hidden">
                             <div class="blog-img position-relative overflow-hidden">
                                 <img class="img-fluid" src="img/finance1.jpg" alt="">
-                                {{-- <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a> --}}
                             </div>
                             <div class="p-4">
-                                <div class="d-flex mb-3">
-                                    {{-- <small class="me-3"><i class="far fa-user text-primary me-2"></i>John Doe</small>
-                                    <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small> --}}
-                                </div>
                                 <h4 class="mb-3">Finance</h4>
                                 <p>Fika is currently engaging the financial institutions and carving a niche in financial domain.</p>
                                 <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
@@ -97,15 +81,9 @@
                         <div class="blog-item bg-light rounded overflow-hidden">
                             <div class="blog-img position-relative overflow-hidden">
                                 <img class="img-fluid" src="img/hospitality1.jpg" alt="">
-                                {{-- <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a> --}}
                             </div>
-                            <div class="p-4">
-                                <div class="d-flex mb-3">
-                                    {{-- <small class="me-3"><i class="far fa-user text-primary me-2"></i>John Doe</small>
-                                    <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small> --}}
-                                </div>
-                                <h4 class="mb-3">Hospitality
-                                </h4>
+                            <div class="p-4">                           
+                                <h4 class="mb-3">Hospitality</h4>
                                 <p>Perhaps the serviced apartment is one of favourite choices between home and a hotel while you are out for a business trip...</p>
                                 <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
                             </div>
@@ -114,43 +92,13 @@
                     <div class="col-md-4 wow slideInUp" data-wow-delay="0.6s">
                         <div class="blog-item bg-light rounded overflow-hidden">
                             <div class="blog-img position-relative overflow-hidden">
-                                <img class="img-fluid" src="img/retail1.jpg" alt="">
-                                {{-- <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a> --}}
+                                <img class="img-fluid" src="img/retail1.jpg" alt="">                           
                             </div>
-                            <div class="p-4">
-                                <div class="d-flex mb-3">
-                                    {{-- <small class="me-3"><i class="far fa-user text-primary me-2"></i>John Doe</small>
-                                    <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small> --}}
-                                </div>
-                                <h4 class="mb-3">Retail
-                                </h4>
-                                <p>Retail - sounds small but a massive industry connects nearly all. Fika understands the huge number of players an..
-                                </p>
+                            <div class="p-4">                  
+                                <h4 class="mb-3">Retail</h4>
+                                <p>Retail - sounds small but a massive industry connects nearly all. Fika understands the huge number of players an..</p>
                                 <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 wow slideInUp" data-wow-delay="0.6s">
-                        <div class="bg-primary rounded h-100 d-flex align-items-center p-5 wow zoomIn" data-wow-delay="0.9s">
-                            <form>
-                                <div class="row g-3">
-                                    <div class="col-xl-12">
-                                        <input type="text" class="form-control bg-light border-0" placeholder="Your Name" style="height: 55px;">
-                                    </div>
-                                    <div class="col-12">
-                                        <input type="email" class="form-control bg-light border-0" placeholder="Your Email" style="height: 55px;">
-                                    </div>
-                                    <div class="col-12">
-                                        <input type="phone" class="form-control bg-light border-0" placeholder="Your Phone No." style="height: 55px;">
-                                    </div>
-                                    <div class="col-12">
-                                        <textarea class="form-control bg-light border-0" rows="3" placeholder="Message"></textarea>
-                                    </div>
-                                    <div class="col-12">
-                                        <button class="btn btn-dark w-100 py-3" type="submit">Contact Us for Inquiry</button>
-                                    </div>
-                                </div>
-                            </form>
                         </div>
                     </div>
                 </div>
@@ -158,9 +106,30 @@
         </div>
     </div>
 </div>
-<!-- About End -->
 
-
-
+<div class="container-fluid wow fadeInUp" data-wow-delay="0.1s" style="background:#dee2e6">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+                <div class="position-relative bg-primary rounded h-75 d-flex flex-column align-items-center justify-content-center text-center p-5">
+                    <h3 class="text-white mb-3">Call Us for an Immediate Feedback</h3>
+                    <h2 class="text-white mb-0">+254 11 4518893</h2>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+                <div class="mb-5 wow fadeInUp h-75 p-5 rounded" data-wow-delay="0.1s" style="background: #091E3E;">
+                    <div class="container py-5">
+                        <div class="row">
+                            <div class="pb-3 mb-3 mx-auto align-items-center justify-content-center text-center" style="max-width: 1000px;">
+                                <h3 class="mb-0 text-light">Questions? We Can Help.</h3>
+                            </div>                          
+                            <a href="/inquiry" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Request for an Inquiry</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 @endsection

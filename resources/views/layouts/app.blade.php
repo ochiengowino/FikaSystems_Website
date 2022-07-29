@@ -77,7 +77,7 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0">
                     <a href="/" class="nav-item nav-link {{ (request()->is('/')) ? 'active' : '' }}">Home</a>
-
+                    
                     <div class="nav-item dropdown">
                         <a href="/about-us" class="nav-link dropdown-toggle {{ (request()->is('about-us')) ? 'active' : '' }}" data-bs-toggle="dropdown">About Fika</a>
                         <div class="dropdown-menu m-0">
@@ -126,9 +126,7 @@
                             <a href="#" class="dropdown-item">Request for Proposal</a>
                         </div>
                     </div>
-
                     
-
                     {{-- <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle {{ (request()->is('er-solutions')) ? 'active' : '' }}" data-bs-toggle="dropdown">Fika ER Solutions</a>
                         <div class="dropdown-menu m-0">
@@ -143,16 +141,16 @@
 
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle {{ (request()->is('industries')) ? 'active' : '' }}" data-bs-toggle="dropdown">Industries</a>
-                            <div class="dropdown-menu m-0">
-                                <a href="/industries" class="dropdown-item">Overview</a>
-                                <a href="#" class="dropdown-item">Agriculture</a>
-                                <a href="#" class="dropdown-item">Education</a>
-                                <a href="#" class="dropdown-item">Telecoms</a>
-                                <a href="#" class="dropdown-item">Health</a>
-                                <a href="#" class="dropdown-item">Finance</a>
-                                <a href="#" class="dropdown-item">Hospitality</a>
-                                <a href="#" class="dropdown-item">Retail</a>
-                            </div>
+                        <div class="dropdown-menu m-0">
+                            <a href="/industries" class="dropdown-item">Overview</a>
+                            <a href="#" class="dropdown-item">Agriculture</a>
+                            <a href="#" class="dropdown-item">Education</a>
+                            <a href="#" class="dropdown-item">Telecoms</a>
+                            <a href="#" class="dropdown-item">Health</a>
+                            <a href="#" class="dropdown-item">Finance</a>
+                            <a href="#" class="dropdown-item">Hospitality</a>
+                            <a href="#" class="dropdown-item">Retail</a>
+                        </div>
                     </div>
 
                     <div class="nav-item dropdown">
@@ -164,11 +162,7 @@
                         </div>
                     </div>
 
-                    
-
-
                     <a href="/contact-us" class="nav-item nav-link {{ (request()->is('contact-us')) ? 'active' : '' }}">Contact Us</a>
-
                 </div>
                 {{-- <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
                 <a href="https://htmlcodex.com/startup-company-website-template" class="btn btn-primary py-2 px-4 ms-3">Download Pro Version</a> --}}
@@ -176,12 +170,8 @@
         </nav>
 
 
-
-
         @yield('content')
     
-
-
 
         <!-- Vendor Start -->
         {{-- <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
@@ -202,27 +192,24 @@
             </div>
         </div> --}}
         <!-- Vendor End -->
-    
     </div>
 
-        <div class="container-fluid text-white" style="background: #061429;">
-            <div class="container text-center">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8 col-md-6">
-                        <div class="d-flex align-items-center justify-content-center" style="height: 75px;">
-                            <p class="mb-0">Copyright &copy; <a class="text-white border-bottom" href="/">Fika Systems Ltd</a>. All Rights Reserved. 
-                        </div>
+    <div class="container-fluid text-white" style="background: #061429;">
+        <div class="container text-center">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-6">
+                    <div class="d-flex align-items-center justify-content-center" style="height: 75px;">
+                        <p class="mb-0">Copyright &copy; <a class="text-white border-bottom" href="/">Fika Systems Ltd</a>. All Rights Reserved. </p>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Footer End -->
+    </div>
+    <!-- Footer End -->
 
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
 
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
-
-    
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>

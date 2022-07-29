@@ -51,15 +51,7 @@ class ContactFormsController extends Controller
         Mail::to('bochieng@kenlinksolutions.com')->send(new ContactMail($data));
 
         Mail::to($data['email'])->send(new ContactReply($data));
-        // Mail::send('pages.contact-email', $data, function ($message) use ($data) {
-        //     $message->from($data['email']);
-        //     $message->to('bochieng@kenlinksolutions.com')->subject($data['subject']);
-        // });
-        
-        // Mail::send('pages.inquiry-email', $data, function ($message) use ($data) {
-        //     $message->from('bochieng@kenlinksolutions.com');
-        //     $message->to($data['email'])->subject('Thank you for the interest');
-        // });
+
         return back()->with('success', 'Thank you for contacting us!');
     }
 

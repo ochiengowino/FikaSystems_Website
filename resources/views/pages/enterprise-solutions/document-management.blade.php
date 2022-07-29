@@ -37,7 +37,7 @@
 <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s" >
     <div class="container py-5">
         <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">          
-            <h1 class="mb-0">Desktop Productivity Solutions</h1>
+            <h2 class="mb-0">Desktop Productivity Solutions</h2>
             <p>Market-Leading PDF, OCR and document conversion solutions.</p>
         </div>
         <div class="row g-5">
@@ -151,28 +151,26 @@
             <div class="col-lg-12">
                 <div class="row g-5">
                     <div class="col-md-6 wow slideInUp" data-wow-delay="0.1s">
-                        <div class="blog-item bg-light rounded overflow-hidden">
+                        <div class="blog-item bg-light rounded overflow-hidden align-items-center justify-content-center text-center">
                             <div class="blog-img position-relative overflow-hidden">
                                 <img class="img-fluid" src="img/dms5.jpg" alt="" style="width: 100%; height: 300px">
                             </div>
                             <div class="p-4">
-                                <div class="d-flex mb-3">
-                                </div>
                                 <h5 class="mb-3">Accelerate work and drive productivity</h5>
                                 <p>Enable your users to easily and quickly create, convert, edit, share and e-sign PDF files, driving significant efficiencies and providing advanced document security.</p>
-                                <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
+                                <a class="text-uppercase" href="#">Read More <i class="bi bi-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 wow slideInUp" data-wow-delay="0.6s">
-                        <div class="blog-item bg-light rounded overflow-hidden">
+                        <div class="blog-item bg-light rounded overflow-hidden align-items-center justify-content-center text-center">
                             <div class="blog-img position-relative overflow-hidden">
                                 <img class="img-fluid" src="img/dms4.jpg" alt="" style="width: 100%; height: 300px">
                             </div>
                             <div class="p-4">
                                 <h5 class="mb-3">Automate today, scale tomorrow</h5>
                                 <p>Transform paper documents into actionable digital information to help solve your current challenges and meet your future business requirements.</p>
-                                <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
+                                <a class="text-uppercase" href="#">Read More <i class="bi bi-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>

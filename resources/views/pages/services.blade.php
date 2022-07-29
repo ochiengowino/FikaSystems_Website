@@ -17,8 +17,7 @@
 <div class="container-fluid wow fadeInUp mb-5" data-wow-delay="0.1s">
     <div class="container py-5">
         <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-            {{-- <h5 class="fw-bold text-primary text-uppercase">Why Choose Us</h5> --}}
-            <h1 class="mb-0">We Are Here to Grow Your Business Exponentially</h1>
+            <h2 class="mb-0">We Are Here to Grow Your Business Exponentially</h2>
         </div>
         <div class="row g-5">
             <div class="col-lg-4">
@@ -37,12 +36,12 @@
             <div class="col-lg-4">
                 <div class="row g-5">
                     <div class="col-12 wow zoomIn" data-wow-delay="0.4s">                 
-                        <h4>FIKA is determined to be a leader in:</h4>
-                            <div class="wow zoomIn" data-wow-delay="0.2s">
-                                <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Delivery value-added IT business solutions</h5>               
-                                <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Empower clients with Skills and knowledge</h5>
-                                <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Continuing to enhance customer relationships</h5>      
-                            </div>
+                        <h5>FIKA is determined to be a leader in:</h5>
+                        <div class="wow zoomIn" data-wow-delay="0.2s">
+                            <p class="mb-3"><i class="fa fa-check text-primary me-3"></i>Delivery value-added IT business solutions</p>               
+                            <p class="mb-3"><i class="fa fa-check text-primary me-3"></i>Empower clients with Skills and knowledge</p>
+                            <p class="mb-1"><i class="fa fa-check text-primary me-3"></i>Continuing to enhance customer relationships</p>      
+                        </div>
                     </div>
                     <div class="col-12 wow zoomIn" data-wow-delay="0.8s">
                         <p class="mb-0">IT/Software application development is one of the premium services of FIKA. Our chief expertise lying in detailed understanding of business requirements at every step of business projects. We determine to use the right technology ensuring maximum return on investment to clients irrespective of the project size.</p>
@@ -56,7 +55,7 @@
 
 
 <!-- About Start -->
-<div class="container-fluid py-0 wow fadeInUp" data-wow-delay="0.1s"  style="background: #f5f5f7; ">
+<div class="container-fluid py-0 mb-5 wow fadeInUp" data-wow-delay="0.1s"  style="background: #f8f9fa; ">
     <div class="container py-0">
         <div class="row g-5">
             <div class="col-lg-5" style="min-height: 400px;">
@@ -72,7 +71,30 @@
 </div>
 <!-- About End -->
 
-<br>
+<div class="container-fluid wow fadeInUp" data-wow-delay="0.1s" style="background:#dee2e6">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+                <div class="position-relative bg-primary rounded h-75 d-flex flex-column align-items-center justify-content-center text-center p-5">
+                    <h3 class="text-white mb-3">Call Us for an Immediate Feedback</h3>
+                    <h2 class="text-white mb-0">+254 11 4518893</h2>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+                <div class="mb-5 wow fadeInUp h-75 p-5 rounded" data-wow-delay="0.1s" style="background: #091E3E;">
+                    <div class="container py-5">
+                        <div class="row">
+                            <div class="pb-3 mb-3 mx-auto align-items-center justify-content-center text-center" style="max-width: 1000px;">
+                                <h3 class="mb-0 text-light">Questions? We Can Help.</h3>
+                            </div>                          
+                            <a href="/inquiry" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Request for an Inquiry</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 @endsection

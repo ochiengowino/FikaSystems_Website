@@ -71,7 +71,7 @@
         <span class="visually-hidden">Next</span>
     </button>
 </div>
-</div>
+
 <!-- Navbar & Carousel End -->
 
 
@@ -125,7 +125,7 @@
             <div class="col-lg-7">
                 <div class="section-title position-relative pb-3 mb-5">
                     {{-- <h5 class="fw-bold text-primary text-uppercase">About Us</h5> --}}
-                    <h1 class="mb-0">The Best & Unique IT Solutions For Your Organization</h1>
+                    <h2 class="mb-0">The Best & Unique IT Solutions For Your Organization</h2>
                 </div>
                 <p class="mb-4">Fika Systems is a privately held software consulting company specializing in software application development, customer relationship management (CRM) solutions, Web design and  Entreprise solutions.<a href="/about-us"> Read More</a></p>
                 <div class="row g-0 mb-3">
@@ -165,7 +165,7 @@
     <div class="container py-5">
         <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
             <h5 class="fw-bold text-primary text-uppercase">Why Choose Us</h5>
-            <h1 class="mb-0">We Are Here to Grow Your Business Exponentially</h1>
+            <h2 class="mb-0">We Are Here to Grow Your Business Exponentially</h2>
         </div>
         <div class="row g-5">
             <div class="col-lg-4">
@@ -214,24 +214,19 @@
 </div>
 <!-- Features Start -->
 
-
-
-{{-- style="background: #fbfefb;" --}}
-<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s" style="background: #f2f2f2;">
+<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
     <div class="container-fluid py-5">
         <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
             {{-- <h5 class="fw-bold text-primary text-uppercase">Why Choose Us</h5> --}}
             <h1 class="mb-0">Services Offered by Fika</h1>
         </div>
         <div class="row g-5">
-            <!-- Blog list Start -->
             <div class="col-lg-12">
                 <div class="row g-5">
                     <div class="col-md-3 wow slideInUp" data-wow-delay="0.6s">
                         <div class="blog-item bg-light rounded overflow-hidden">
                             <div class="blog-img position-relative overflow-hidden">
                                 <img class="img-fluid" src="img/imaging-printing1.jpg" alt="">
-                                {{-- <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a> --}}
                             </div>
                             <div class="p-4">                            
                                 <h5 class="mb-3">Printing & Imaging Solutions</h5>
@@ -244,7 +239,6 @@
                         <div class="blog-item bg-light rounded overflow-hidden">
                             <div class="blog-img position-relative overflow-hidden">
                                 <img class="img-fluid" src="img/app-dev1.jpg" alt="">
-                                {{-- <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a> --}}
                             </div>
                             <div class="p-4">                                
                                 <h5 class="mb-3">Applications Development for Varied Business Needs</h5>
@@ -257,7 +251,6 @@
                         <div class="blog-item bg-light rounded overflow-hidden">
                             <div class="blog-img position-relative overflow-hidden">
                                 <img class="img-fluid" src="img/sales1.jpg" alt="">
-                                {{-- <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a> --}}
                             </div>
                             <div class="p-4">
                                 <h5 class="mb-3">Sales & Marketing</h5>
@@ -270,7 +263,6 @@
                         <div class="blog-item bg-light rounded overflow-hidden">
                             <div class="blog-img position-relative overflow-hidden">
                                 <img class="img-fluid" src="img/webapplication1.jpg" alt="">
-                                {{-- <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a> --}}
                             </div>
                             <div class="p-4">
                                 <h5 class="mb-3">Web Application - Design Mix</h5>
