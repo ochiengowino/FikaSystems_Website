@@ -22,6 +22,7 @@ class ContactFormsController extends Controller
      */
     public function saveContact(Request $request)
     {
+        // dd($request);
         $this->validate($request, [
             'name' => 'required',
             'email' => 'required|email',
@@ -52,7 +53,7 @@ class ContactFormsController extends Controller
 
         Mail::to($data['email'])->send(new ContactReply($data));
 
-        return back()->with('success', 'Thank you for contacting us!');
+        return response()->with('success', 'Thank you for contacting us!');
     }
 
 

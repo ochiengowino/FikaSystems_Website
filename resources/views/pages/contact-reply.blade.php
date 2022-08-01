@@ -23,7 +23,7 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 </head>
-<body>
+<body style="background">
     <div class="container">
 
         <h2>Hello Admin,</h2>

@@ -59,7 +59,7 @@
         </div>
         <div class="row g-5">
             <div class="col-lg-6 wow slideInUp" data-wow-delay="0.3s">
-                <form method="post" action="contact-us">
+                <form method="post" class="contact-form" id="send-contact-form">
                     {{csrf_field()}}
 
                     @if(Session::has('success'))
@@ -70,7 +70,8 @@
 
                     <div class="row g-3">
                         <div class="col-md-6">
-                            <input type="text" class="form-control @error('name') is-invalid @enderror border-0 bg-light px-4" name="name" placeholder="Name" style="height: 55px;">
+                            <input type="text" class="form-control @error('name') is-invalid @enderror border-0 bg-light px-4" name="name" id="name" placeholder="Name" style="height: 55px;">
+                            <span class="text-danger" id="name-error"></span>
                             @error('name')
                                 <span class="invalid-feedback" role="alert">
                                     <strong>{{ $message }}</strong>
@@ -78,7 +79,8 @@
                             @enderror
                         </div>
                         <div class="col-md-6">
-                            <input type="email" class="form-control @error('email') is-invalid @enderror border-0 bg-light px-4" name="email" placeholder="Email" style="height: 55px;">
+                            <input type="email" class="form-control @error('email') is-invalid @enderror border-0 bg-light px-4" name="email" id="email" placeholder="Email" style="height: 55px;">
+                            <span class="text-danger" id="email-error"></span>
                             @error('email')
                                 <span class="invalid-feedback" role="alert">
                                     <strong>{{ $message }}</strong>
@@ -86,7 +88,8 @@
                             @enderror
                         </div>
                         <div class="col-md-12">
-                            <input type="tel" class="form-control @error('phone') is-invalid @enderror border-0 bg-light px-4" name="phone" placeholder="Phone Number" style="height: 55px;">
+                            <input type="tel" class="form-control @error('phone') is-invalid @enderror border-0 bg-light px-4" name="phone" id="phone" placeholder="Phone Number" style="height: 55px;">
+                            <span class="text-danger" id="mobile-number-error"></span>
                             @error('phone')
                                 <span class="invalid-feedback" role="alert">
                                     <strong>{{ $message }}</strong>
@@ -94,7 +97,8 @@
                             @enderror
                         </div>
                         <div class="col-12">
-                            <input type="text" class="form-control @error('subject') is-invalid @enderror border-0 bg-light px-4" name="subject" placeholder="Subject" style="height: 55px;">
+                            <input type="text" class="form-control @error('subject') is-invalid @enderror border-0 bg-light px-4" name="subject" id="subject" placeholder="Subject" style="height: 55px;">
+                            <span class="text-danger" id="subject-error"></span>
                             @error('subject')
                                 <span class="invalid-feedback" role="alert">
                                     <strong>{{ $message }}</strong>
@@ -102,15 +106,22 @@
                             @enderror
                         </div>
                         <div class="col-12">
-                            <textarea class="form-control @error('message') is-invalid @enderror border-0 bg-light px-4 py-3" name="message" rows="4" placeholder="Message"></textarea>
+                            <textarea class="form-control @error('message') is-invalid @enderror border-0 bg-light px-4 py-3" name="message" id="message" rows="4" placeholder="Message"></textarea>
+                            <span class="text-danger" id="message-error"></span>
                             @error('message')
                                 <span class="invalid-feedback" role="alert">
                                     <strong>{{ $message }}</strong>
                                 </span>
                             @enderror
                         </div>
+                        <div class="my-3">
+                            <div class="loading">Sending...</div>
+                            <div class="error-message text-center">Please fill out all the fields</div>
+                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                        </div>
                         <div class="col-12">
-                            <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+                            <input type="submit" id="sendContactBtn" value="Send Message" class="btn btn-primary btn-lg btn-block w-100 py-3 myBtn">
+                            {{-- <button class="btn btn-primary w-100 py-3" type="submit" id="sendContactBtn">Send Message</button> --}}
                         </div>
                     </div>
                 </form>
