@@ -24,7 +24,7 @@
         <div class="row g-5">
             <div class="col-lg-6 wow slideInUp" data-wow-delay="0.3s">
                 <div class="bg-primary rounded d-flex align-items-center p-5 wow zoomIn" data-wow-delay="0.9s">
-                    <form method="post" action="inquiry">
+                    <form method="post" class="contact-form" id="send-inquiry-form">
                         {{csrf_field()}}
 
                         @if(Session::has('success'))
@@ -35,7 +35,8 @@
                         
                         <div class="row g-3">
                             <div class="col-xl-12">
-                                <input type="text" class="form-control @error('name') is-invalid @enderror bg-light border-0" name="name" placeholder="Your Name" style="height: 55px;">
+                                <input type="text" class="form-control @error('name') is-invalid @enderror bg-light border-0" name="name" id="name"  placeholder="Your Name" style="height: 55px;">
+                                <span class="text-danger" id="name-error"></span>
                                 @error('name')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -43,7 +44,8 @@
                                 @enderror
                             </div>
                             <div class="col-12">
-                                <input type="email" class="form-control @error('email') is-invalid @enderror bg-light border-0" name="email" placeholder="Your Email" style="height: 55px;">
+                                <input type="email" class="form-control @error('email') is-invalid @enderror bg-light border-0" name="email" id="email" placeholder="Your Email" style="height: 55px;">
+                                <span class="text-danger" id="email-error"></span>
                                 @error('email')
                                 <span class="invalid-feedback" role="alert">
                                     <strong>{{ $message }}</strong>
@@ -51,7 +53,8 @@
                                 @enderror
                             </div>
                             <div class="col-12">
-                                <input type="phone" class="form-control  @error('phone') is-invalid @enderror bg-light border-0" name="phone" placeholder="Your Phone No." style="height: 55px;">
+                                <input type="phone" class="form-control  @error('phone') is-invalid @enderror bg-light border-0" name="phone" id="phone" placeholder="Your Phone No." style="height: 55px;">
+                                <span class="text-danger" id="mobile-number-error"></span>
                                 @error('phone')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -59,15 +62,22 @@
                                 @enderror
                             </div>
                             <div class="col-12">
-                                <textarea class="form-control @error('message') is-invalid @enderror bg-light border-0" rows="3" name="message" placeholder="Message"></textarea>
+                                <textarea class="form-control @error('message') is-invalid @enderror bg-light border-0" rows="3" name="message" id="message" placeholder="Message"></textarea>
+                                <span class="text-danger" id="message-error"></span>
                                 @error('message')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>
                                 @enderror
                             </div>
+                            <div class="my-3">
+                                <div class="loading">Sending...</div>
+                                <div class="error-message text-center">Please fill out all the fields</div>
+                                <div class="sent-message">Your message has been sent. Thank you!</div>
+                            </div>
                             <div class="col-12">
-                                <button class="btn btn-dark w-100 py-3" type="submit">Contact Us for Inquiry</button>
+                                <input type="submit" id="sendInquiryBtn" value="Send Inquiry" class="btn btn-dark btn-lg btn-block w-100 py-3 myBtn">
+                                {{-- <button class="btn btn-dark w-100 py-3" type="submit">Contact Us for Inquiry</button> --}}
                             </div>
                         </div>
                     </form>

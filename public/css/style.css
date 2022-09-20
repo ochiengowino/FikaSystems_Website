@@ -605,3 +605,30 @@ h6,
     padding: 15px;
     font-weight: 600;
 }
+
+.testimonial-carousel2 .owl-nav {
+    margin-top: 30px;
+    display: flex;
+    justify-content: start;
+}
+
+.testimonial-carousel2 .owl-nav .owl-prev,
+.testimonial-carousel2 .owl-nav .owl-next {
+    margin-right: 15px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--dark);
+    border: 2px solid var(--primary);
+    border-radius: 50px;
+    font-size: 18px;
+    transition: .5s;
+}
+
+.testimonial-carousel2 .owl-nav .owl-prev:hover,
+.testimonial-carousel2 .owl-nav .owl-next:hover {
+    color: #FFFFFF;
+    background: var(--primary);
+}
