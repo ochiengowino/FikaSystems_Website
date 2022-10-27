@@ -66,7 +66,7 @@
                         <td>{{ $data['email'] }}</td>
                     </tr>
                     <tr>          
-                        <th>Phone</th>
+                        <th>Phone Number</th>
                         <td>{{ $data['phone'] }}</td>
                     </tr>
                     <tr>
@@ -88,6 +88,27 @@
                                 <br /><br />
 
                         
+                        </td>
+
+                    </tr>
+                    <tr>
+
+                        <td align="left" valign="top" colspan="2" style="padding-top: 10px;">
+
+                            <span style="font-size: 12px; line-height: 1; color: #333333;">
+
+                                Sincerely,
+
+                                <br/>
+
+                                <a href="https://fikasystems.com">Fika Systems Limited</a>
+
+                                <br /><br />
+
+                    
+
+                            </span>
+
                         </td>
 
                     </tr>

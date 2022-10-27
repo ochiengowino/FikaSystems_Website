@@ -36,7 +36,7 @@
 
                     <!-- Logo -->
 
-                    <tr>
+                    {{-- <tr>
 
                         <td align="left" valign="top" colspan="2" style="border-bottom: 1px solid #CCCCCC; padding-bottom: 10px;">
 
@@ -44,7 +44,7 @@
 
                         </td>
 
-                    </tr>
+                    </tr> --}}
 
                     <!-- Title -->
 
@@ -59,7 +59,7 @@
                         </td>
 
                     </tr>
-
+                    <br><br>
                     <!-- Messages -->
 
                     <tr>
@@ -68,11 +68,11 @@
 
                             <span style="font-size: 12px; line-height: 1; color: #333333;">
 
-                                This is an auto generated response to your email sent to us.
+                                Sincerely,
 
-                                <br /><br />
+                                <br/>
 
-                                Please do not reply to this email as it will not be received.
+                                <a href="https://fikasystems.com">Fika Systems Limited</a>
 
                                 <br /><br />
 
