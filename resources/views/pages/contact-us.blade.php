@@ -59,6 +59,7 @@
         </div>
         <div class="row g-5">
             <div class="col-lg-6 wow slideInUp" data-wow-delay="0.3s">
+                <div id="contact-message"></div>
                 <form method="post" class="contact-form" id="send-contact-form">
                     {{csrf_field()}}
 
@@ -120,7 +121,7 @@
                             <div class="sent-message">Your message has been sent. Thank you!</div>
                         </div>
                         <div class="col-12">
-                            <input type="submit" id="sendContactBtn" value="Send Message" class="btn btn-primary btn-lg btn-block w-100 py-3 myBtn">
+                            <input type="button" id="sendContactBtn" value="Send Message" class="btn btn-primary btn-lg btn-block w-100 py-3 myBtn">
                             {{-- <button class="btn btn-primary w-100 py-3" type="submit" id="sendContactBtn">Send Message</button> --}}
                         </div>
                     </div>

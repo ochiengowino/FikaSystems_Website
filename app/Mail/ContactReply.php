@@ -32,7 +32,7 @@ class ContactReply extends Mailable
     
     public function build()
     {
-        return $this->from('bochieng@kenlinksolutions.com')
+        return $this->from('info@fikasystems.com')
             ->subject('Thank you for contacting us')
             ->view('pages.contact-reply')
             ->with('data', $this->data);

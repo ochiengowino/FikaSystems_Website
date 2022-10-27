@@ -49,11 +49,11 @@ class ContactFormsController extends Controller
         );
 
         
-        Mail::to('bochieng@kenlinksolutions.com')->send(new ContactMail($data));
+        Mail::to('bochieng@fikasystems.com')->send(new ContactMail($data));
 
         Mail::to($data['email'])->send(new ContactReply($data));
 
-        return response()->with('success', 'Thank you for contacting us!');
+        return back()->with('success', 'Thank you for contacting us!');
     }
 
 
